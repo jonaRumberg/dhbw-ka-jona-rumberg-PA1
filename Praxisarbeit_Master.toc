@@ -1,19 +1,37 @@
 \selectlanguage *[spelling=new, babelshorthands=true]{german}
 \contentsline {section}{Selbstständigkeitserklärung}{II}{section*.1}%
-\contentsline {section}{Sperrvermerk}{III}{section*.2}%
-\contentsline {section}{Kurzfassung}{IV}{section*.3}%
-\contentsline {section}{Inhaltsverzeichnis}{V}{section*.4}%
-\contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.5}%
-\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.6}%
-\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.7}%
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Grundlagen}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Arbeitsumfeld}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Begriffliche Grundlagen}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}BPMN}{4}{subsubsection.2.2.1}%
-\contentsline {section}{\numberline {3}Ist- und Problemanalyse}{5}{section.3}%
-\contentsline {section}{\numberline {4}Lösungskonzept}{6}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{7}{section.5}%
-\contentsline {section}{Quellenverzeichnis}{IX}{section*.9}%
-\contentsline {section}{Anhang}{X}{section*.10}%
+\contentsline {section}{Inhaltsverzeichnis}{III}{section*.2}%
+\contentsline {section}{Abkürzungsverzeichnis}{V}{section*.3}%
+\contentsline {section}{Abbildungsverzeichnis}{VI}{section*.4}%
+\contentsline {section}{Tabellenverzeichnis}{VII}{section*.5}%
+\contentsline {section}{\numberline {1}Einleitung und Grundlagen der Betrachtung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Zielsetung}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Abgrenzung}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Vorgehensweise}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Ereignisgesteuerte Softwarearchitektur}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}RESTful APIs}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Spezifika des Beispiels}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Betriebswirtschaftlicher Kontext}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Verwendete Technologien}{4}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Bezug zu vorangegangenen Konzepten}{4}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Zusammenfassung}{4}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Praktischer Teil}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Analyse des bestehenden Systems}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Mögliche Anwendung der theoretischen Erkenntnisse}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Implementierung des Prototyps}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Vorteile des Zusammenspiels von EdA. und REST}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Nachteile des Zusammenspiels von EdA. und REST}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Bewertung des Prototyps}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Schlussbetrachtung}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Abschließende Beurteilung von EdA. und REST}{7}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Praktischer Nutzen}{7}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Nachteile und Fallstricke in der Entwicklung}{7}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Weiterführende Chancen}{7}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit}{7}{subsection.5.3}%
+\contentsline {section}{Quellenverzeichnis}{VIII}{section*.7}%
+\contentsline {section}{Anhang}{IX}{section*.8}%

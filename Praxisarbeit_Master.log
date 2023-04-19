@@ -1,11 +1,7 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2023.3.2)  3 MAR 2023 13:42
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2023.3.2)  19 APR 2023 16:32
  restricted system commands enabled.
- file:line:error style messages enabled.
-**c:/Users/I569398/Downloads/latex-vorlage-dhbw-ka/latex-vorlage-dhbw-ka/Praxis
-arbeit_Master.tex
-
-(c:/Users/I569398/Downloads/latex-vorlage-dhbw-ka/latex-vorlage-dhbw-ka/Praxisa
-rbeit_Master.tex
+**Praxisarbeit_Master.tex
+(./Praxisarbeit_Master.tex
 LaTeX2e <2022-06-01> patch level 5
 Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
@@ -242,10 +238,10 @@ braces):
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            hyphenation	 on input line 12
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 12
@@ -780,7 +776,11 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count333
@@ -819,38 +819,48 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count366
 \c@shorteditor=\count367
 \c@savedshorteditor=\count368
-\c@labelname=\count369
-\c@savedlabelname=\count370
-\c@institution=\count371
-\c@savedinstitution=\count372
-\c@lista=\count373
-\c@savedlista=\count374
-\c@listb=\count375
-\c@savedlistb=\count376
-\c@listc=\count377
-\c@savedlistc=\count378
-\c@listd=\count379
-\c@savedlistd=\count380
-\c@liste=\count381
-\c@savedliste=\count382
-\c@listf=\count383
-\c@savedlistf=\count384
-\c@location=\count385
-\c@savedlocation=\count386
-\c@organization=\count387
-\c@savedorganization=\count388
-\c@origlocation=\count389
-\c@savedoriglocation=\count390
-\c@origpublisher=\count391
-\c@savedorigpublisher=\count392
-\c@publisher=\count393
-\c@savedpublisher=\count394
-\c@language=\count395
-\c@savedlanguage=\count396
-\c@origlanguage=\count397
-\c@savedoriglanguage=\count398
-\c@pageref=\count399
-\c@savedpageref=\count400
+\c@narrator=\count369
+\c@savednarrator=\count370
+\c@execproducer=\count371
+\c@savedexecproducer=\count372
+\c@execdirector=\count373
+\c@savedexecdirector=\count374
+\c@with=\count375
+\c@savedwith=\count376
+\c@labelname=\count377
+\c@savedlabelname=\count378
+\c@institution=\count379
+\c@savedinstitution=\count380
+\c@lista=\count381
+\c@savedlista=\count382
+\c@listb=\count383
+\c@savedlistb=\count384
+\c@listc=\count385
+\c@savedlistc=\count386
+\c@listd=\count387
+\c@savedlistd=\count388
+\c@liste=\count389
+\c@savedliste=\count390
+\c@listf=\count391
+\c@savedlistf=\count392
+\c@location=\count393
+\c@savedlocation=\count394
+\c@organization=\count395
+\c@savedorganization=\count396
+\c@origlocation=\count397
+\c@savedoriglocation=\count398
+\c@origpublisher=\count399
+\c@savedorigpublisher=\count400
+\c@publisher=\count401
+\c@savedpublisher=\count402
+\c@language=\count403
+\c@savedlanguage=\count404
+\c@origlanguage=\count405
+\c@savedoriglanguage=\count406
+\c@citation=\count407
+\c@savedcitation=\count408
+\c@pageref=\count409
+\c@savedpageref=\count410
 \shorthandwidth=\skip69
 \shortjournalwidth=\skip70
 \shortserieswidth=\skip71
@@ -882,19 +892,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count401
-\c@textcitetotal=\count402
-\c@textcitemaxnames=\count403
-\c@biburlbigbreakpenalty=\count404
-\c@biburlbreakpenalty=\count405
-\c@biburlnumpenalty=\count406
-\c@biburlucpenalty=\count407
-\c@biburllcpenalty=\count408
+\c@textcitecount=\count411
+\c@textcitetotal=\count412
+\c@textcitemaxnames=\count413
+\c@biburlbigbreakpenalty=\count414
+\c@biburlbreakpenalty=\count415
+\c@biburlnumpenalty=\count416
+\c@biburlucpenalty=\count417
+\c@biburllcpenalty=\count418
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count409
+\c@smartand=\count419
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -905,35 +915,54 @@ File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
 
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/authorye
-ar.bbx
-File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard
 .bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count410
-\c@bbx:relatedtotal=\count411
-))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
+\c@bbx:relatedcount=\count420
+\c@bbx:relatedtotal=\count421
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
 
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/authorye
-ar.cbx
-File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-)
+Lua function BLTXAPAifInParensTF = 26)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -984,11 +1013,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 itlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count412
+\c@section@level=\count422
 )
 \@linkdim=\dimen159
-\Hy@linkcounter=\count413
-\Hy@pagecounter=\count414
+\Hy@linkcounter=\count423
+\Hy@pagecounter=\count424
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
@@ -1000,7 +1029,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count415
+\Hy@SavedSpaceFactor=\count425
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
@@ -1015,7 +1044,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 \stockwidth=\dimen160
 \stockheight=\dimen161
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count416
+\c@Hy@tempcnt=\count426
 LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen162
 
@@ -1027,7 +1056,7 @@ lc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count417
+\Fld@menulength=\count427
 \Field@Width=\dimen163
 \Fld@charsize=\dimen164
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -1042,9 +1071,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count418
-\c@Item=\count419
-\c@Hfootnote=\count420
+\Hy@abspage=\count428
+\c@Item=\count429
+\c@Hfootnote=\count430
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -1062,8 +1091,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count421
-\c@bookmark@seq@number=\count422
+\Fld@listcount=\count431
+\c@bookmark@seq@number=\count432
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunf
 ilecheck.sty
@@ -1078,7 +1107,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip83
 )
-\c@pageNumber=\count423
+\c@pageNumber=\count433
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
@@ -1094,10 +1123,10 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Module polyglossia Info: Language data for ngerman
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            hyphenation	 on input line 20
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 20
@@ -1106,91 +1135,91 @@ Package polyglossia Info: Option: German, spelling=new.
 )
 \openout1 = Praxisarbeit_Master.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-3.
+4.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 13.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 13.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 13.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 13.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 13.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 13.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 13.
-LaTeX Font Info:    Redeclaring math accent \check on input line 13.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 13.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 13.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 13.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
+LaTeX Font Info:    Redeclaring math accent \check on input line 14.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 13.
+(Font)              `operators' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/carlito(0)/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> TU/carlito(0)/m/n on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 13.
+(Font)              `operators' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/carlito(0)/m/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> TU/carlito(0)/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/carlito(0)/m/n --> TU/carlito(0)/m/n on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/carlito(0)/m/it on input line 13.
+(Font)                  OT1/cmr/m/it --> TU/carlito(0)/m/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/carlito(0)/b/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> TU/carlito(0)/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 13.
+(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/carlito(0)/m/n --> TU/carlito(0)/b/n on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/carlito(0)/b/it on input line 13.
+(Font)                  OT1/cmr/bx/it --> TU/carlito(0)/b/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 13.
+(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {german/target}  =>  {german}
@@ -1315,16 +1344,16 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
+\scratchcounter=\count434
 \scratchdimen=\dimen165
 \scratchbox=\box56
-\nofMPsegments=\count425
-\nofMParguments=\count426
+\nofMPsegments=\count435
+\nofMParguments=\count436
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count427
+\MPscratchCnt=\count437
 \MPscratchDim=\dimen166
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
+\MPnumerator=\count438
+\makeMPintoPDFobject=\count439
 \everyMPtoPDFconversion=\toks28
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf
@@ -1337,12 +1366,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
+Package biblatex Info: ... file 'ngerman-apa.lbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/ngerman-
+apa.lbx
+File: ngerman-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ngerman.
 lbx
 File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/german-a
+pa.lbx
+File: german-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
@@ -1351,19 +1392,34 @@ bx
 File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
 580
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/german.l
-bx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-580
-)
+))
 Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
 19
 )
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ngerman.
+lbx
+File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-apa/german-a
+pa.lbx
+File: german-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/german.l
+bx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
+580
+))
+Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
+19
+))
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1373,9 +1429,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Praxisarbeit_Master.bbl' found.
  (./Praxisarbeit_Master.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
-Package hyperref Info: Link coloring OFF on input line 13.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
+Package hyperref Info: Link coloring OFF on input line 14.
  (./Praxisarbeit_Master.out)
 (./Praxisarbeit_Master.out)
 \@outlinefile=\write4
@@ -1383,45 +1439,37 @@ Package hyperref Info: Link coloring OFF on input line 13.
 \openout4 = Praxisarbeit_Master.out
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
-LaTeX Info: Redefining \rmfamily on input line 13.
-LaTeX Info: Redefining \sffamily on input line 13.
-LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-13
+14
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
  (./text/template/titlepage.tex
-<images//DHBW_logo.pdf, id=75, 199.1701pt x 105.27531pt>
+<images//DHBW_logo.pdf, id=147, 199.1701pt x 105.27531pt>
 File: images//DHBW_logo.pdf Graphic file (type pdf)
 <use images//DHBW_logo.pdf>
 Package luatex.def Info: images//DHBW_logo.pdf  used on input line 13.
 (luatex.def)             Requested size: 170.71652pt x 90.24101pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 40.
-
-Overfull \hbox (33.45409pt too wide) in paragraph at lines 40--51
- [][] 
- []
-
-[1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 40.
+ [1
 
 {C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./images//DH
-BW_logo.pdf>]) [1] (./text/template/declaration.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
-
+BW_logo.pdf>])
+[1] (./text/template/declaration.tex
 Overfull \hbox (4.88892pt too wide) in paragraph at lines 22--26
 [][] 
  []
 
-) [2] (./text/template/blockingNotice.tex) [3] (./text/abstract.tex) [4]
-(./Praxisarbeit_Master.toc
+) [2] (./Praxisarbeit_Master.toc
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 LaTeX Info: Redefining \rmfamily on input line 1.
@@ -1431,11 +1479,11 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
-)
+ [3])
 \tf@toc=\write5
 
 \openout5 = Praxisarbeit_Master.toc
- [5] (./text/acronym.tex) [6]
+ [4] (./text/acronym.tex) [5]
 (./Praxisarbeit_Master.lof
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
@@ -1455,7 +1503,7 @@ uage deu)
 \tf@lof=\write6
 
 \openout6 = Praxisarbeit_Master.lof
- [7] (./Praxisarbeit_Master.lot
+ [6] (./Praxisarbeit_Master.lot
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
@@ -1474,7 +1522,7 @@ uage deu)
 \tf@lot=\write7
 
 \openout7 = Praxisarbeit_Master.lot
- [8]
+ [7]
 (./text/chapter1.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -1487,7 +1535,7 @@ File: images//DHBW_logo.pdf Graphic file (type pdf)
 <use images//DHBW_logo.pdf>
 Package luatex.def Info: images//DHBW_logo.pdf  used on input line 14.
 (luatex.def)             Requested size: 170.71393pt x 90.23941pt.
-<images//company_logo.pdf, id=197, 247.42438pt x 127.97812pt>
+<images//company_logo.pdf, id=284, 247.42438pt x 127.97812pt>
 File: images//company_logo.pdf Graphic file (type pdf)
 <use images//company_logo.pdf>
 Package luatex.def Info: images//company_logo.pdf  used on input line 23.
@@ -1496,22 +1544,23 @@ Package luatex.def Info: images//company_logo.pdf  used on input line 23.
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-]) [2<./images//company_logo.pdf>] [3] (./text/chapter2.tex) [4]
+] [2<./images//company_logo.pdf>]) [3] (./text/chapter2.tex) [4]
 (./text/chapter3.tex) [5] (./text/chapter4.tex) [6] (./text/chapter5.tex)
 [7] (./text/template/references.tex
-Overfull \hbox (7.90427pt too wide) in paragraph at lines 7--7
-[][]\TU/carlito(0)/m/n/12 Meu-ser, Mi-cha-el und Ul-ri-ke Na-gel (2009). „  Da
-s Ex-per-ten-in-ter-view --- kon-zep-tio-nel-le Grund-
+
+Package biblatex Warning: Type 'incollection' not found on input line 7.
+
+
+LaTeX Warning: Empty bibliography on input line 7.
+
+
+Overfull \hbox (1.30841pt too wide) in paragraph at lines 10--10
+[]\TU/carlito(0)/m/n/12 o.V. (2018). Der un-kon-trol-lier-te Boom. \TU/carlito(
+0)/m/it/12 Wirt-schafts-wo-che\TU/carlito(0)/m/n/12 , \TU/carlito(0)/m/it/12 (20
+18), Heft 15 vom 06.04.2018\TU/carlito(0)/m/n/12 . 
  []
 
-
-Overfull \hbox (21.84177pt too wide) in paragraph at lines 10--10
-[][]\TU/carlito(0)/m/n/12 o.V. (2018). „  Der un-kon-trol-lier-te Boom“. In:
- \TU/carlito(0)/m/it/12 Wirt-schafts-wo-che \TU/carlito(0)/m/n/12 (2018), Heft 
-15 vom 06.04.2018. 
- []
-
-) [9
+) [8
 
 ] (./text/appendix.tex)
 The property list \polyglossia@langsetup contains the pairs (without outer
@@ -1635,7 +1684,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- [10] (./Praxisarbeit_Master.aux
+ [9] (./Praxisarbeit_Master.aux
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 LaTeX Info: Redefining \rmfamily on input line 20.
@@ -1647,30 +1696,32 @@ Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 )
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: C0EFAEFAA572E3E6E37733F077D4AFE0;2205.
+(rerunfilecheck)             Checksum: 87F0C28A1DED7DC47A29D2DF825E3B32;6856.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 24163 strings out of 477356
+ 24918 strings out of 477356
  125038,1648299 words of node,token memory allocated
- 613 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 14 glue, 3 kern, 1 glyph, 16 attribute, 63 glue_spe
-c, 16 attribute_list, 1 write nodes
-   avail lists: 1:3,2:817,3:260,4:149,5:456,6:85,7:3169,8:56,9:523,10:12,11:271,
-12:1
- 44314 multiletter control sequences out of 65536+600000
- 67 fonts using 15160527 bytes
- 77i,11n,112p,762b,2449s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 633 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 14 glue, 3 kern, 1 glyph, 18 attribute, 63 glue_spe
+c, 18 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:3,2:798,3:295,4:149,5:488,6:88,7:3273,8:56,9:523,10:12,11:279,
+12:2
+ 45026 multiletter control sequences out of 65536+600000
+ 64 fonts using 14973839 bytes
+ 81i,12n,132p,691b,7333s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@Meuser2009'
 <C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Ca
 rlito-Italic.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/
 google/carlito/Carlito-Bold.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/
 fonts/truetype/google/carlito/Carlito-Regular.ttf>
-Output written on Praxisarbeit_Master.pdf (18 pages, 456465 bytes).
+Output written on Praxisarbeit_Master.pdf (17 pages, 472627 bytes).
 
-PDF statistics: 315 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 131072)
- 145 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 404 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 131072)
+ 289 words of extra memory for PDF output out of 10000 (max. 100000000)
 
