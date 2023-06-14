@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Praxisarbeit_Master"] 1686746012 "Praxisarbeit_Master.bcf" "Praxisarbeit_Master.bbl" "Praxisarbeit_Master" 1686746606
-  "Praxisarbeit_Master.bcf" 1686746605 132044 f62fd953b6d9ed1cb604d5d309f64da0 "lualatex"
+["biber Praxisarbeit_Master"] 1686746012 "Praxisarbeit_Master.bcf" "Praxisarbeit_Master.bbl" "Praxisarbeit_Master" 1686747063
+  "Praxisarbeit_Master.bcf" 1686747062 132044 f62fd953b6d9ed1cb604d5d309f64da0 "lualatex"
   "text/bibliography.bib" 1686743611 2754 e6c7ab1826791e7aa5556707e02cbbf8 ""
   (generated)
   "Praxisarbeit_Master.bbl"
   "Praxisarbeit_Master.blg"
-["lualatex"] 1686746601 "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" "Praxisarbeit_Master.pdf" "Praxisarbeit_Master" 1686746606
+["lualatex"] 1686747058 "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" "Praxisarbeit_Master.pdf" "Praxisarbeit_Master" 1686747063
   "C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682079650 91443 9acc1b138ca7f608e1e7f311f7105b87 ""
   "C:/Users/I569398/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/carlito-bold.luc" 1677768380 513983 897c7fb81d95b0002096e8440556fd14 ""
   "C:/Users/I569398/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/carlito-bolditalic.luc" 1677768382 419239 565e2eca9aa09172c4070fd6a6cdbc6a ""
@@ -196,21 +196,21 @@
   "C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload.lua" 1655325932 13565 e717235f571ce97b510f08fa1a4ef973 ""
   "C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.sty" 1443949118 10170 b1a2248f43cab899e3fe36f676176865 ""
   "C:/Users/I569398/AppData/Roaming/MiKTeX/tex/generic/config/language.dat.lua" 1664612772 13325 36a21317ffc97bf358f29130d352a772 ""
-  "Praxisarbeit_Master.aux" 1686746605 6737 247e54a2c4ebcda8b27606e1f975c3e4 "lualatex"
+  "Praxisarbeit_Master.aux" 1686747062 6756 0a49845579b77e6cc2dc2a3ae73bab84 "lualatex"
   "Praxisarbeit_Master.bbl" 1686746015 3275 3f2943c65bce130d3297e602189dfd2e "biber Praxisarbeit_Master"
   "Praxisarbeit_Master.lof" 0 -1 0 "lualatex"
   "Praxisarbeit_Master.lot" 0 -1 0 "lualatex"
-  "Praxisarbeit_Master.out" 1686746605 6155 abeea4f29c386899a9fe20106c0615ed "lualatex"
-  "Praxisarbeit_Master.run.xml" 1686746605 2604 6f8e9134a20f8eb6dc36b14fa02e791e "lualatex"
+  "Praxisarbeit_Master.out" 1686747062 6155 abeea4f29c386899a9fe20106c0615ed "lualatex"
+  "Praxisarbeit_Master.run.xml" 1686747062 2604 6f8e9134a20f8eb6dc36b14fa02e791e "lualatex"
   "Praxisarbeit_Master.tex" 1682079756 1522 3d6d2c75186f9c376e61b69018c9aa5d ""
-  "Praxisarbeit_Master.toc" 1686746605 2984 b59dfccd277e48afc63b4a52c28e4d1f "lualatex"
+  "Praxisarbeit_Master.toc" 1686747062 2984 b59dfccd277e48afc63b4a52c28e4d1f "lualatex"
   "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" 1682079756 1522 3d6d2c75186f9c376e61b69018c9aa5d ""
   "config.tex" 1686551666 3004 4763ea91bf34adbeebe5246376844fbf ""
   "images//DHBW_logo.pdf" 1679496269 238540 065cf7dc53eaa3beaed49cd0fb0dffb3 ""
   "images//SAP_R_grad_scrn.png" 1679496269 38896 26deb202eae071a709525f44c994e6ca ""
   "text/acronym.tex" 1686746338 373 ce7793731e53141fe9a973330b5b9e9f ""
   "text/appendix.tex" 1679496269 229 3ef5de9e8a093281c9ad982103916e72 ""
-  "text/chapter1.tex" 1686746598 4970 32f7a39a994d72e805a2fd3d082ae65f ""
+  "text/chapter1.tex" 1686747057 4971 5e62e3124df21eca53bca469ffdec286 ""
   "text/chapter2.tex" 1686745207 365 fa232913a1a60853843aa227084f624f ""
   "text/chapter3.tex" 1681837653 183 3966d21e6407bf350a655ebd1784a174 ""
   "text/chapter4.tex" 1686641420 190 af762d9f4707745f78f9c156b5e23a07 ""
