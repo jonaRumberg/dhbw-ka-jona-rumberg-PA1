@@ -677,6 +677,12 @@ INPUT .\images\\DHBW_logo.pdf
 INPUT .\images\\DHBW_logo.pdf
 INPUT .\images\\DHBW_logo.pdf
 INPUT .\images\\DHBW_logo.pdf
+INPUT .\images\\SAP_R_grad_scrn.png
+INPUT .\images\\SAP_R_grad_scrn.png
+INPUT .\images\\SAP_R_grad_scrn.png
+INPUT .\images\\SAP_R_grad_scrn.png
+INPUT .\images\\SAP_R_grad_scrn.png
+INPUT .\images\\SAP_R_grad_scrn.png
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
@@ -698,6 +704,7 @@ INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tf
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\I569398\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\images\\SAP_R_grad_scrn.png
 INPUT .\text\template\declaration.tex
 INPUT .\text\template\declaration.tex
 INPUT .\text\template\declaration.tex
@@ -746,15 +753,6 @@ INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr7.tf
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr5.tfm
 INPUT C:\Users\I569398\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr5.tfm
-INPUT .\images\\DHBW_logo.pdf
-INPUT .\images\\DHBW_logo.pdf
-INPUT .\images\\DHBW_logo.pdf
-INPUT .\images\\DHBW_logo.pdf
-INPUT .\images\\company_logo.pdf
-INPUT .\images\\company_logo.pdf
-INPUT .\images\\company_logo.pdf
-INPUT .\images\\company_logo.pdf
-INPUT .\images\\company_logo.pdf
 INPUT .\text\chapter2.tex
 INPUT .\text\chapter2.tex
 INPUT .\text\chapter2.tex
