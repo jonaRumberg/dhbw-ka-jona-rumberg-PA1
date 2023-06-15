@@ -19,6 +19,49 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{EDA2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80ee91ab689385203c6231c6a66f6b96}{%
+           family={Bruns},
+           familyi={B\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa75b40f41db5d5170ea4d0413756e11}{%
+           family={Dunkel},
+           familyi={D\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{fullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{bibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorbibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authornamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorfullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{editorbibnamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editornamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editorfullhash}{aa75b40f41db5d5170ea4d0413756e11}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783642024399}
+      \field{series}{Xpert.pressSpringerLink}
+      \field{title}{Event-Driven Architecture : Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse}
+      \field{year}{2010}
+    \endentry
     \entry{sapse_was}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8fdc4d4089d2e7c3046b1da9fa45a47}{%
@@ -53,6 +96,49 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{EDA2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80ee91ab689385203c6231c6a66f6b96}{%
+           family={Bruns},
+           familyi={B\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa75b40f41db5d5170ea4d0413756e11}{%
+           family={Dunkel},
+           familyi={D\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{fullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{bibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorbibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authornamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorfullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{editorbibnamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editornamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editorfullhash}{aa75b40f41db5d5170ea4d0413756e11}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783642024399}
+      \field{series}{Xpert.pressSpringerLink}
+      \field{title}{Event-Driven Architecture : Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse}
+      \field{year}{2010}
+    \endentry
     \entry{sapse_was}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8fdc4d4089d2e7c3046b1da9fa45a47}{%
