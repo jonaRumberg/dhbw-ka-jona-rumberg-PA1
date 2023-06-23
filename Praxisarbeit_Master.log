@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2023.6.13)  22 JUN 2023 10:16
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  23 JUN 2023 10:56
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -6,56 +6,49 @@ This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.8.28) (format=lualatex 2023.6.13)  2
 
 (c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1
 /Praxisarbeit_Master.tex
-LaTeX2e <2022-06-01> patch level 5
-Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
 ollection.
 luaotfload | conf : Root cache directory is "C:/Users/I569398/AppData/Local/MiKT
 eX/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-06-15.lua" from kpse-res
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
 olved path "C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload
-/fontloader-2022-06-15.lua".
+/fontloader-2022-10-03.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.120
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
 luaotfload | conf : Root cache directory is "C:/Users/I569398/AppData/Local/MiKT
 eX/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
-.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
 Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-08-30>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'. (./config
-.tex) (./text/template/preamble.tex (C:/Users/I569398/AppData/Local/Programs/Mi
-KTeX/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./config.tex) (./text/
+template/preamble.tex
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/Users/I569398/AppData/Local
 /MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
@@ -66,24 +59,25 @@ luaotfload | db : Font names database loaded from C:/Users/I569398/AppData/Local
 \c@subparagraph=\count188
 \c@figure=\count189
 \c@table=\count190
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen137
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpa
 rse.sty
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-08-30 L3 programming layer (loader) 
+Package: expl3 2023-06-16 L3 programming layer (loader) 
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-l
 uatex.def
-File: l3backend-luatex.def 2022-08-30 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count191
+Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box51
 ))
-Package: xparse 2022-06-22 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
@@ -102,9 +96,9 @@ eX
 \l__fontspec_emdef_int=\count266
 \l__fontspec_strong_int=\count267
 \l__fontspec_strongdef_int=\count268
-\l__fontspec_tmpa_dim=\dimen138
-\l__fontspec_tmpb_dim=\dimen139
-\l__fontspec_tmpc_dim=\dimen140
+\l__fontspec_tmpa_dim=\dimen140
+\l__fontspec_tmpb_dim=\dimen141
+\l__fontspec_tmpc_dim=\dimen142
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -113,7 +107,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )))
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polygloss
 ia.sty
-Package: polyglossia 2023/02/11 v1.60 Modern multilingual typesetting with XeLa
+Package: polyglossia 2023/06/10 v1.63 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
@@ -129,8 +123,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.te
 x
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count270
@@ -140,7 +134,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l
 3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbas
 e.sty
@@ -151,13 +145,13 @@ ack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \@catcodetablestackcnt=\count271
 )
-\CatcodeTableOther=\catcodetable12
-\CatcodeTableExpl=\catcodetable13
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
 )
 Lua module: polyglossia 2013/05/11 1.3 Polyglossia
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-lat
 ex.lde
-Package: gloss-latex 2023/02/11 vv1.60 polyglossia: module for default language
+Package: gloss-latex 2023/06/10 vv1.63 polyglossia: module for default language
 
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -166,7 +160,15 @@ braces):
 >  {latex/scripttag}  =>  {}
 >  {latex/language}  =>  {Latex}
 >  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
 >  {latex/hyphennames}  =>  {english}
 >  {latex/direction}  =>  {LR}
 >  {latex/hyphenmins}  =>  {2,3}
@@ -190,7 +192,7 @@ Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@qlevel=\count275
 \csq@maxlvl=\count276
 \csq@tshold=\count277
-\csq@ltx@everypar=\toks18
+\csq@ltx@everypar=\toks19
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -211,7 +213,15 @@ braces):
 >  {latex/scripttag}  =>  {}
 >  {latex/language}  =>  {Latex}
 >  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
 >  {latex/hyphennames}  =>  {english}
 >  {latex/direction}  =>  {LR}
 >  {latex/hyphenmins}  =>  {2,3}
@@ -229,6 +239,14 @@ braces):
 >  {german/language}  =>  {German}
 >  {german/langtag}  =>  {DEU}
 >  {german/bcp47}  =>  {de-DE}
+>  {german/bcp47-language}  =>  {de}
+>  {german/bcp47-region}  =>  {DE}
+>  {german/bcp47-script}  =>  {Latn}
+>  {german/bcp47-variant}  =>  {1996}
+>  {german/bcp47-extension-t}  =>  {}
+>  {german/bcp47-extension-u}  =>  {}
+>  {german/bcp47-extension-x}  =>  {}
+>  {german/bcp47-casing}  =>  {}
 >  {german/hyphennames}  =>  {}
 >  {german/direction}  =>  {LR}
 >  {german/hyphenmins}  =>  {2,2}
@@ -241,14 +259,14 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2 on input line 12
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	 on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
-n input line 12
+n input line 16
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, script=latin.
 Package polyglossia Info: Option: German, variant=german.
@@ -261,7 +279,7 @@ ef
 File: babelsh.def 2022/06/21 Babel common definitions for shorthands
  Taken verbatim from babel files (2022/06/06 v3.76)
 )
-Package babel Info: Making " an active character on input line 179.
+Package babel Info: Making " an active character on input line 194.
 )
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
@@ -276,15 +294,15 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count278
 \Gm@cntv=\count279
 \c@Gm@tempcnt=\count280
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks19
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks20
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg
 ))
@@ -301,32 +319,32 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
-\AC@clearlist=\toks20
+\AC@clearlist=\toks21
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen149
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen151
 \ar@mcellbox=\box52
-\extrarowheight=\dimen150
-\NC@list=\toks21
-\extratabsurround=\skip49
-\backup@length=\skip50
+\extrarowheight=\dimen152
+\NC@list=\toks22
+\extratabsurround=\skip50
+\backup@length=\skip51
 \ar@cellbox=\box53
 )
 \TY@count=\count283
-\TY@linewidth=\dimen151
-\tymin=\dimen152
-\tymax=\dimen153
-\TY@tablewidth=\dimen154
+\TY@linewidth=\dimen153
+\tymin=\dimen154
+\tymax=\dimen155
+\TY@tablewidth=\dimen156
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count284
-\float@exts=\toks22
+\float@exts=\toks23
 \float@box=\box54
-\@float@everytoks=\toks23
+\@float@everytoks=\toks24
 \@floatcapt=\box55
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/tocbibind/tocbibind.s
@@ -354,10 +372,10 @@ Package graphics Info: Driver file: luatex.def on input line 107.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.d
 ef
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen155
-\Gin@req@width=\dimen156
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
@@ -370,12 +388,12 @@ Package xcolor Info: Driver file: luatex.def on input line 227.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks24
-\minrowclearance=\skip51
+\everycr=\toks25
+\minrowclearance=\skip52
 \rownum=\count285
 )
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex-dev/graphics/mathcolo
-r.ltx)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.lt
+x)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -647,21 +665,21 @@ Package fontspec Info: Font family 'carlito(0)' created for font 'carlito'
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/footmisc/footmisc.sty
-Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
-\FN@temptoken=\toks25
-\footnotemargin=\dimen157
-\@outputbox@depth=\dimen158
+Package: footmisc 2023/05/26 v6.0e a miscellany of footnote facilities
+\FN@temptoken=\toks26
+\footnotemargin=\dimen159
+\@outputbox@depth=\dimen160
 Package footmisc Info: Declaring symbol style bringhurst on input line 695.
 Package footmisc Info: Declaring symbol style chicago on input line 703.
 Package footmisc Info: Declaring symbol style wiley on input line 712.
@@ -675,7 +693,7 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcm
 ds.sty
@@ -692,7 +710,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks26
+\pdftexcmds@toks=\toks27
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.s
 ty
@@ -759,14 +777,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorderinternal@0=\count327
 \blx@entrysetcounter=\count328
 \blx@biblioinstance=\count329
-\labelnumberwidth=\skip61
-\labelalphawidth=\skip62
-\biblabelsep=\skip63
-\bibitemsep=\skip64
-\bibnamesep=\skip65
-\bibinitsep=\skip66
-\bibparsep=\skip67
-\bibhang=\skip68
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language3
@@ -777,7 +795,7 @@ Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'LNI.dbx' not found.
@@ -851,20 +869,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count398
 \c@pageref=\count399
 \c@savedpageref=\count400
-\shorthandwidth=\skip69
-\shortjournalwidth=\skip70
-\shortserieswidth=\skip71
-\shorttitlewidth=\skip72
-\shortauthorwidth=\skip73
-\shorteditorwidth=\skip74
-\locallabelnumberwidth=\skip75
-\locallabelalphawidth=\skip76
-\localshorthandwidth=\skip77
-\localshortjournalwidth=\skip78
-\localshortserieswidth=\skip79
-\localshorttitlewidth=\skip80
-\localshortauthorwidth=\skip81
-\localshorteditorwidth=\skip82
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -875,13 +893,13 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.d
 ef
-File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count401
 \c@textcitetotal=\count402
 \c@textcitemaxnames=\count403
@@ -901,7 +919,7 @@ Package biblatex Info: ... file 'blx-natbib.def' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-natbib.d
 ef
-File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
@@ -915,13 +933,13 @@ Package biblatex Info: ... file 'alphabetic.bbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/alphabet
 ic.bbx
-File: alphabetic.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+File: alphabetic.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard
 .bbx
-File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count410
 \c@bbx:relatedtotal=\count411
 ))
@@ -938,7 +956,7 @@ Package biblatex Info: ... file 'alphabetic.cbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/alphabet
 ic.cbx
-File: alphabetic.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+File: alphabetic.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -958,34 +976,20 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
-
-C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty:
-16135: Package xkeyval Error: `dashed' undefined in families `blx@opt@pre'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16135 \blx@processoptions
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2022-08-30 L3 programming layer (loader) 
+(biblatex)             2023-06-16 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-exp
 l3.sty
-Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefi
 nekeys.sty
@@ -1006,7 +1010,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1017,39 +1021,31 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count412
 )
-\@linkdim=\dimen159
+\@linkdim=\dimen161
 \Hy@linkcounter=\count413
 \Hy@pagecounter=\count414
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.s
-ty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
 \Hy@SavedSpaceFactor=\count415
-
-(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+ (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `unicode' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-\stockwidth=\dimen160
-\stockheight=\dimen161
-Package hyperref Info: Bookmarks ON on input line 4410.
+Package hyperref Info: Bookmarks ON on input line 4434.
 \c@Hy@tempcnt=\count416
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen162
-
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -1061,13 +1057,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count417
 \Field@Width=\dimen163
 \Fld@charsize=\dimen164
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -1080,7 +1076,7 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2022-09-22 v7.00t Hyperref driver for luaTeX
+File: hluatex.def 2023-05-16 v7.00y Hyperref driver for luaTeX
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc
 .sty
@@ -1107,7 +1103,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip83
+\Hy@SectionHShift=\skip84
 )
 \c@pageNumber=\count423
 )
@@ -1131,7 +1127,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 4.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
@@ -1332,12 +1328,12 @@ mkii
 \scratchbox=\box56
 \nofMPsegments=\count425
 \nofMParguments=\count426
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count427
 \MPscratchDim=\dimen166
 \MPnumerator=\count428
 \makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks29
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf
 -base.sty
@@ -1360,20 +1356,20 @@ Package biblatex Info: ... file 'ngerman.lbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ngerman.
 lbx
-File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/german.l
 bx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2 on input line 580
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	 on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 580
 )
@@ -1385,13 +1381,13 @@ Package biblatex Info: ... file 'ngerman.lbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ngerman.
 lbx
-File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/german.l
 bx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
 580
 )
@@ -1406,11 +1402,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 \openout3 = Praxisarbeit_Master.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Praxisarbeit_Master.bbl' not found.
-No file Praxisarbeit_Master.bbl.
+Package biblatex Info: ... file 'Praxisarbeit_Master.bbl' found.
+(./Praxisarbeit_Master.bbl)
 Package biblatex Info: Reference section=0 on input line 14.
 Package biblatex Info: Reference segment=0 on input line 14.
 Package hyperref Info: Link coloring OFF on input line 14.
+ (./Praxisarbeit_Master.out)
+(./Praxisarbeit_Master.out)
 \@outlinefile=\write4
 
 \openout4 = Praxisarbeit_Master.out
@@ -1425,16 +1423,16 @@ Module polyglossia Info: Language ngerman already loaded; id is 4 on input line
 14
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
-(./text/template/titlepage.tex
-<images//DHBW_logo.pdf, id=3, 199.1701pt x 105.27531pt>
-File: images//DHBW_logo.pdf Graphic file (type pdf)
-<use images//DHBW_logo.pdf>
-Package luatex.def Info: images//DHBW_logo.pdf  used on input line 13.
+ (./text/template/titlepage.tex
+<images/DHBW_logo.pdf, id=127, 199.1701pt x 105.27531pt>
+File: images/DHBW_logo.pdf Graphic file (type pdf)
+<use images/DHBW_logo.pdf>
+Package luatex.def Info: images/DHBW_logo.pdf  used on input line 13.
 (luatex.def)             Requested size: 113.81102pt x 60.15854pt.
-<images//SAP_R_grad_scrn.png, id=4, 414.1071pt x 205.0059pt>
-File: images//SAP_R_grad_scrn.png Graphic file (type png)
-<use images//SAP_R_grad_scrn.png>
-Package luatex.def Info: images//SAP_R_grad_scrn.png  used on input line 14.
+<images/SAP_R_grad_scrn.png, id=128, 414.1071pt x 205.0059pt>
+File: images/SAP_R_grad_scrn.png Graphic file (type png)
+<use images/SAP_R_grad_scrn.png>
+Package luatex.def Info: images/SAP_R_grad_scrn.png  used on input line 14.
 (luatex.def)             Requested size: 113.81102pt x 56.34082pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 41.
@@ -1442,176 +1440,274 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
-) [1
+)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [1
 
-{C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./images//DH
-BW_logo.pdf><./images//SAP_R_grad_scrn.png>] (./text/template/declaration.tex
+{C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./images/DHB
+W_logo.pdf><./images/SAP_R_grad_scrn.png>] (./text/template/declaration.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 Overfull \hbox (4.88892pt too wide) in paragraph at lines 22--26
 [][] 
  []
 
-) [2]
-No file Praxisarbeit_Master.toc.
+)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [2]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu (./Praxisarbeit_Master.toc
+Package polyglossia Info: Option: German, spelling=new.
+Package polyglossia Info: Option: German, spelling=new.
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package polyglossia Info: Option: German, spelling=new.
+Package polyglossia Info: Option: German, spelling=new.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:EDA' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [3]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 \tf@toc=\write5
 
 \openout5 = Praxisarbeit_Master.toc
-[3] (./text/acronym.tex) [4]
-No file Praxisarbeit_Master.lof.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [4] (./text/acronym.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [5]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+(./Praxisarbeit_Master.lof
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 \tf@lof=\write6
 
 \openout6 = Praxisarbeit_Master.lof
-[5]
-No file Praxisarbeit_Master.lot.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [6]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu (./Praxisarbeit_Master.lot
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 \tf@lot=\write7
 
 \openout7 = Praxisarbeit_Master.lot
-[6] (./text/chapter1.tex
-Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
-
-
-Package acronym Warning: Acronym `IT' is not defined on input line 4.
-
-
-Package acronym Warning: Acronym `IT' is not defined on input line 4.
-
-Package acronym Info: Label `acro:REST' newly defined as it shall be overridden
-
-although it is yet undefined on input line 5.
-
-Package acronym Warning: Acronym `REST' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `REST' is not defined on input line 5.
-
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 5.
-
-Package acronym Warning: Acronym `API' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `API' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `REST' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `API' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `REST' is not defined on input line 10.
-
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [7]
+(./text/chapter1.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 Package acronym Info: Label `acro:ERP' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
-
-Package acronym Warning: Acronym `ERP' is not defined on input line 14.
-
-
-Package acronym Warning: Acronym `ERP' is not defined on input line 14.
-
+although it is yet undefined on input line 12.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
+(Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
+(Font)              <5> on input line 12.
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [1
 
-LaTeX Warning: Citation 'sapse_was' on page 1 undefined on input line 14.
-
-
-Overfull \hbox (4.01439pt too wide) in paragraph at lines 14--15
-\TU/carlito(0)/m/n/12 bran-chen-über-grei-fen-den Ein-fluss. SAP bie-tet hier-b
-ei Mög-lich-keit, durch um-fas-sen-de Funk-
- []
-
-) [1
-
-] [2] (./text/chapter2.tex
-Package acronym Info: Label `acro:EDA' newly defined as it shall be overridden
-although it is yet undefined on input line 2.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 2.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 2.
-
+]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [2] (./text/chapter2.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 2.
 
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 7.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 10.
-
-
-LaTeX Warning: Citation 'EDA2010' on page 3 undefined on input line 10.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 11.
-
-
-LaTeX Warning: Citation 'CLOUD2021' on page 3 undefined on input line 11.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 12.
-
-<images//Graphik EDA.png, id=97, 623.83063pt x 287.57437pt>
-File: images//Graphik EDA.png Graphic file (type png)
-<use images//Graphik EDA.png>
-Package luatex.def Info: images//Graphik EDA.png  used on input line 15.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Graphik EDA.png, id=281, 623.83063pt x 287.57437pt>
+File: images/Graphik EDA.png Graphic file (type png)
+<use images/Graphik EDA.png>
+Package luatex.def Info: images/Graphik EDA.png  used on input line 15.
 (luatex.def)             Requested size: 341.43437pt x 157.39848pt.
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 16.
-
-
-LaTeX Warning: Citation 'CLOUD2021' on page 3 undefined on input line 18.
-
-[3]
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 19.
-
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [3]
 Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
 although it is yet undefined on input line 20.
-
-Package acronym Warning: Acronym `CEP' is not defined on input line 20.
-
-
-Package acronym Warning: Acronym `CEP' is not defined on input line 20.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 21.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 21.
-
-
-Package acronym Warning: Acronym `CEP' is not defined on input line 22.
-
-
-Package acronym Warning: Acronym `EDA' is not defined on input line 24.
-
-
-LaTeX Warning: Citation 'EDA2006' on page 4 undefined on input line 24.
-
-[4<./images//Graphik EDA.png>]
-
-Package acronym Warning: Acronym `API' is not defined on input line 27.
-
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [4<./images/Graphik EDA.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 27.
 
-) [5] (./text/chapter3.tex) [6] (./text/chapter4.tex) [7] (./text/chapter5.tex) [8] (./text/template/references.tex
-
-Package biblatex Warning: Type 'book' not found on input line 4.
-
-
-LaTeX Warning: Empty bibliography on input line 4.
-
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [5] (./text/chapter3.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [6] (./text/chapter4.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [7] (./text/chapter5.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [8] (./text/template/references.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 
 Package biblatex Warning: Type 'incollection' not found on input line 7.
 
@@ -1624,12 +1720,10 @@ Package biblatex Warning: Type 'article' not found on input line 10.
 
 LaTeX Warning: Empty bibliography on input line 10.
 
-
-Package biblatex Warning: Type 'online' not found on input line 14.
-
-
-LaTeX Warning: Empty bibliography on input line 14.
-
+luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 
 Package biblatex Warning: Type 'interview' not found on input line 17.
 
@@ -1642,9 +1736,13 @@ Package biblatex Warning: Type 'unpublished' not found on input line 20.
 
 LaTeX Warning: Empty bibliography on input line 20.
 
-) [7
+)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [8
 
-] (./text/appendix.tex)
+] (./text/appendix.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1652,7 +1750,15 @@ braces):
 >  {latex/scripttag}  =>  {}
 >  {latex/language}  =>  {Latex}
 >  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
 >  {latex/hyphennames}  =>  {english}
 >  {latex/direction}  =>  {LR}
 >  {latex/hyphenmins}  =>  {2,3}
@@ -1670,6 +1776,14 @@ braces):
 >  {german/language}  =>  {German}
 >  {german/langtag}  =>  {DEU}
 >  {german/bcp47}  =>  {de-DE}
+>  {german/bcp47-language}  =>  {de}
+>  {german/bcp47-region}  =>  {DE}
+>  {german/bcp47-script}  =>  {Latn}
+>  {german/bcp47-variant}  =>  {1996}
+>  {german/bcp47-extension-t}  =>  {}
+>  {german/bcp47-extension-u}  =>  {}
+>  {german/bcp47-extension-x}  =>  {}
+>  {german/bcp47-casing}  =>  {}
 >  {german/hyphennames}  =>  {}
 >  {german/direction}  =>  {LR}
 >  {german/hyphenmins}  =>  {2,2}
@@ -1766,57 +1880,37 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- [8] (./Praxisarbeit_Master.aux
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, spelling=new.
-LaTeX Info: Redefining \rmfamily on input line 20.
-LaTeX Info: Redefining \sffamily on input line 20.
-LaTeX Info: Redefining \ttfamily on input line 20.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, spelling=new.
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Praxisarbeit_Master.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Praxisarbeit_Master.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  344CFA559EA33D47C6091F66997AB8AF;5566.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Praxisarbeit_Master
-(biblatex)                and rerun LaTeX afterwards.
-
+uage deu [9] (./Praxisarbeit_Master.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+ ***********
+Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
+(rerunfilecheck)             Checksum: 9CE20E19B0103A13786C634E6FB728B3;5566.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 24106 strings out of 477356
- 125038,1648299 words of node,token memory allocated
- 563 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 9 glue, 3 kern, 1 glyph, 11 attribute, 64 glue_spec
-, 11 attribute_list, 1 write nodes
-   avail lists: 1:2,2:552,3:216,4:32,5:658,6:46,7:4383,8:29,9:316,10:9,11:515
- 44269 multiletter control sequences out of 65536+600000
- 64 fonts using 14973839 bytes
- 77i,11n,112p,1277b,4035s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 23783 strings out of 478031
+ 125038,1977958 words of node,token memory allocated
+ 588 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 9 glue, 3 kern, 1 glyph, 12 attribute, 67 glue_spec
+, 12 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:658,3:328,4:75,5:801,6:93,7:5342,8:58,9:452,10:9,11:649
+ 43674 multiletter control sequences out of 65536+600000
+ 63 fonts using 14528391 bytes
+ 84i,12n,112p,1277b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@EDA2006'
 <C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Ca
 rlito-Bold.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/go
 ogle/carlito/Carlito-Regular.ttf>
-Output written on Praxisarbeit_Master.pdf (16 pages, 387167 bytes).
+Output written on Praxisarbeit_Master.pdf (17 pages, 417385 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 371 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 131072)
+ 249 words of extra memory for PDF output out of 10000 (max. 100000000)
 

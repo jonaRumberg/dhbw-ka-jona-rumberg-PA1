@@ -1,0 +1,143 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{EDA2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=80ee91ab689385203c6231c6a66f6b96}{%
+           family={Bruns},
+           familyi={B\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa75b40f41db5d5170ea4d0413756e11}{%
+           family={Dunkel},
+           familyi={D\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{fullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{bibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorbibnamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authornamehash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{authorfullhash}{80ee91ab689385203c6231c6a66f6b96}
+      \strng{editorbibnamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editornamehash}{aa75b40f41db5d5170ea4d0413756e11}
+      \strng{editorfullhash}{aa75b40f41db5d5170ea4d0413756e11}
+      \field{labelalpha}{Br10}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783642024399}
+      \field{series}{Xpert.pressSpringerLink}
+      \field{title}{Event-Driven Architecture : Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse}
+      \field{year}{2010}
+    \endentry
+    \entry{EDA2006}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bcdc8fdc509eb2db21bdc0b8c71f617f}{%
+           family={Chandy},
+           familyi={C\bibinitperiod},
+           given={Mani},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \strng{fullhash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \strng{bibnamehash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \strng{authorbibnamehash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \strng{authornamehash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \strng{authorfullhash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
+      \field{labelalpha}{Ch06}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Gartner Application Integration and Web Services Summit}
+      \field{title}{Event-Driven Applications: Costs, Benefits and Design Approaches}
+      \field{year}{2006}
+    \endentry
+    \entry{CLOUD2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7360f3a403943b7a60b9e3efc3daeeba}{%
+           family={Goniwada},
+           familyi={G\bibinitperiod},
+           given={Shivakumar\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \strng{fullhash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \strng{bibnamehash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \strng{authorbibnamehash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \strng{authornamehash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \strng{authorfullhash}{7360f3a403943b7a60b9e3efc3daeeba}
+      \field{labelalpha}{Go21}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CLOUD NATIVE ARCHITECTURE AND DESIGN : a handbook for modern day architecture and design with... enterprise-grade examples.}
+      \field{year}{2021}
+    \endentry
+    \entry{sapse_was}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a8fdc4d4089d2e7c3046b1da9fa45a47}{%
+           family={{SAP SE}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \strng{fullhash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \strng{bibnamehash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \strng{authorbibnamehash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \strng{authornamehash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \strng{authorfullhash}{a8fdc4d4089d2e7c3046b1da9fa45a47}
+      \field{labelalpha}{SAoJ}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist SAP? | Definition \& Bedeutung | SAP Abkürzung}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{o.J.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sap.com/germany/about/company/what-is-sap.html
+      \endverb
+      \verb{url}
+      \verb https://www.sap.com/germany/about/company/what-is-sap.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

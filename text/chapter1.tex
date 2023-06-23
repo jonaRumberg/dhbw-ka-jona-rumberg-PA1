@@ -1,19 +1,18 @@
 \section{Einleitung}
 
+
 \subsection{Motivation und Problemstellung}
-Die wohl umfassendste Entwicklung in der globalen \ac{IT}-Branche ist heutzutage wohl die in Richtung Cloud. Um Geschäftsprozesse in diesem Umfeld umfassend abzubilden ist es immer wieder nötig verschiedene Dienste miteinander zu integrieren und so ist die Entwicklung sogenannter APIs zu einem Kernbestandteil der modernen Entwicklungstätigkeit geworden.
-\\Ein weit verbreitetes Design Pattern ist dabei die sogenannte \ac{REST} \ac{API}. In der Migration von ehemals sequenziell ablaufenden Prozessen kann es jedoch zu Hürden kommen, da eine \ac{REST} \ac{API} von Grund auf stateless angelegt sein sollte. Hier kommt Event basiertes Design ins Spiel, das dieses Problem lösen könnte.
-
-
+Die wohl wichtigste Entwicklung in der betrieblichen Informationstechnik der letzten Jahre ist wohl die in Richtung Cloud.(Q) Immer mehr Unternehmen setzten auf Cloud und profitieren in dem Zuge von kürzeren Entwicklungs- und Auslieferungszyklen, von geringeren Risiken bei der Anschaffung und schnelleren Amortisierungzeiten.(Q) Im Zuge dieser Entwicklung ist es für den Softwarearchitekten von heute immer relevanter geworden, die Software von Grund auf als verteiltes System und nicht monolithisch zu konzipieren. Schnittstellen und Lösungen zur Modularisierung sind also relevanter denn je. \\
+Ein Ansatz in der Systemarchitektur, der seit einigen Jahren an Relevanz gewinnt, ist hierbei die \ac{EDA}. Sie verspricht, durch den Fokus auf Ereignisse bei der Systemarchitektur eine Reihe von Vorteilen. In der Prozessmodellierung lassen sich Geschäftsvorfälle einfacher modellieren, in der Implementierung wird von Beginn an eine modulare Struktur geschaffen, die Ausfallsicherheit, Integrationsmöglichkeiten und eine bessere Lesbarkeit des Programmcodes bietet.(Q)
 
 \subsection{Zielsetung}
-Das Ziel dieser Arbeit ist die Untersuchung vom Zusammenspiel des eventbasierten Ansatzes und dem \ac{REST}ful design pattern, wobei speziellen Wert auf die Betrachtung der Robustheit und Fehlerresillienz des entstehenden Systems gelegt werden soll. Zudem soll ein solches System im Kontext einer HR-Anwendung beispielhaft umgesetzt werden.
-
+Das Ziel der Arbeit soll es sein, die Vorteile dieses Ansatzes näher zu untersuchen. Im Umfeld der Personalwirtschaft soll im Rahmen eines Migrationsprojektes eine Applikation auf eine Cloud-Infrastruktur umgezogen werden. In diesem Kontext bietet es sich an, das Potenzial einer \ac{EDA} näher zu untersuchen. Im Verlauf dieser Arbeit soll daher ein Prototyp im genannten Kontext erstellt werden, der eine \ac{EDA} implementiert. So soll exemplarisch geprüft werden, welche Hindernisse bei einem solchen Vorhaben auftreten können und daraus folgend ein allgemeines Urteil über den Architekturansatz gefällt werden.
 
 \subsection{Betrieblicher Kontext}
-Die SAP SE ist ein deutsches Softwareunternehmen, das seit 1972 Unternehmenssoftware entwickelt. Heute beschäftigt es rund 105000 Mitarbeiter und hat Standorte weltweit. Die \ac{ERP} Systeme der Firma haben in der Geschäftswelt entscheidenden, branchenübergreifenden Einfluss. SAP bietet hierbei Möglichkeit, durch umfassende Funktionen und eine einheitliche, integrierte Datenbasis, Geschäftsprozesse zu überblicken, dieses digital abzuwickeln und zu automatisieren. \footcite[Vgl.][]{sapse_was}
+Die SAP SE ist ein deutsches Softwareunternehmen, das seit 1972 Unternehmenssoftware entwickelt. Heute beschäftigt es rund 105000 Mitarbeiter und hat Standorte weltweit. Die \ac{ERP} Systeme der Firma haben in der Geschäftswelt entscheidenden, branchenübergreifenden Einfluss. SAP bietet hierbei Möglichkeit, durch umfassende Funktionen und eine einheitliche, integrierte Datenbasis, Geschäftsprozesse zu überblicken, dieses digital abzuwickeln und zu automatisieren. \footcite[Vgl.][]{sapse_was} \\
+Das HCM ist die Personallösung des SAP ERP und kommt bis heute in einer großen Anzahl Firmen zum Einsatz. Besonders relevant sind hierbei sogenannte Self-Services über die Mitarbeiter Daten pflegen können und HR-relevante Prozesse anstoßen können. Dementsprechend stehen diesen Anwendungen besonders hohe Ansprüche an Leistungsfähigkeit und Verfügbarkeit entgegen.
 
 \subsection{Abgrenzung}
-\subsection{Vorgehensweise und Aufbau der Arbeit}
-    %Zwei drei Worte zu Forschungsmethodik
+\subsection{Vorgehensweise und Aufbau der Arbeit}    
+
     
