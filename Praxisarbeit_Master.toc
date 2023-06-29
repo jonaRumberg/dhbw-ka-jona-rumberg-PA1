@@ -1,10 +1,10 @@
 \xpginauxfiletrue 
 \selectlanguage *[spelling=new, babelshorthands=true]{german}
 \contentsline {section}{Selbstständigkeitserklärung}{II}{section*.1}%
-\contentsline {section}{Inhaltsverzeichnis}{III}{section*.2}%
-\contentsline {section}{Abkürzungsverzeichnis}{V}{section*.5}%
-\contentsline {section}{Abbildungsverzeichnis}{VI}{section*.6}%
-\contentsline {section}{Tabellenverzeichnis}{VII}{section*.7}%
+\contentsline {section}{Inhaltsverzeichnis}{IV}{section*.3}%
+\contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.5}%
+\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.6}%
+\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.7}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zielsetung}{1}{subsection.1.2}%
@@ -12,23 +12,23 @@
 \contentsline {subsection}{\numberline {1.4}Abgrenzung}{2}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Vorgehensweise und Aufbau der Arbeit}{2}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\ac {EDA}}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}RESTful \ac {API}}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{5}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Anwendung in der Praxis}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Analyse des bestehenden Systems}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Mögliche Anwendung der theoretischen Erkenntnisse}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Implementierung eines Prototyps}{6}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{7}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Resümee}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{8}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{8}{subsection.5.3}%
-\contentsline {section}{Quellenverzeichnis}{VIII}{section*.14}%
-\contentsline {section}{Anhang}{IX}{section*.15}%
+\contentsline {subsection}{\numberline {2.1}Event-Driven Architecture}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}RESTful \ac {API}}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{8}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Anwendung in der Praxis}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Analyse des bestehenden Systems}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Mögliche Anwendung der theoretischen Erkenntnisse}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Implementierung eines Prototyps}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{10}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Resümee}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{11}{subsection.5.3}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.20}%
+\contentsline {section}{Anhang}{X}{section*.21}%
 \xpginauxfilefalse 

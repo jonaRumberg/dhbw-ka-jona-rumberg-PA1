@@ -71,6 +71,13 @@
 \usepackage[hidelinks, unicode]{hyperref}
 \hypersetup{pdftitle = {\thesisTitle}, pdfauthor = {\name}}
 
+% Das Paket todonotes kann genutzt werden um Todos im text zu markieren
+\usepackage{todonotes}
+\newcommand{\missing}[1]{\todo[color=red!40, noline]{#1}}
+\newcommand{\clarify}[1]{\todo[color=yellow]{#1}}
+\newcommand{\citepls}{\todo[color=green]{Cite!}}
+
+
 % Normale Schriftart für URLs
 \renewcommand{\UrlFont}{}
 

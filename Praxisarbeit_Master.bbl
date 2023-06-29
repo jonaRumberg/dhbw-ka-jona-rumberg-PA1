@@ -82,6 +82,36 @@
       \field{title}{Event-Driven Applications: Costs, Benefits and Design Approaches}
       \field{year}{2006}
     \endentry
+    \entry{cloudeventgit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=39181be3195fd4d6495565bdfbea546d}{%
+           family={{Cloud Events}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{fullhash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{bibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorbibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authornamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorfullhash}{39181be3195fd4d6495565bdfbea546d}
+      \field{labelalpha}{CloJ}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JSON Event Format for CloudEvents - Version 1.0.2}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{o.J.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/formats/json-format.md#1-introduction
+      \endverb
+      \verb{url}
+      \verb https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/formats/json-format.md#1-introduction
+      \endverb
+    \endentry
     \entry{CLOUD2021}{book}{}
       \name{author}{1}{}{%
         {{hash=7360f3a403943b7a60b9e3efc3daeeba}{%
@@ -135,6 +165,66 @@
       \endverb
       \verb{url}
       \verb https://www.sap.com/germany/about/company/what-is-sap.html
+      \endverb
+    \endentry
+    \entry{schulte2003growing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e4b21c0f5c05008a1d04e259c9f5865a}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Roy\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \strng{fullhash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \strng{bibnamehash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \strng{authorbibnamehash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \strng{authornamehash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \strng{authorfullhash}{e4b21c0f5c05008a1d04e259c9f5865a}
+      \field{labelalpha}{Sc03}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gartner Research}
+      \field{title}{The growing role of events in enterprise applications}
+      \field{volume}{7}
+      \field{year}{2003}
+    \endentry
+    \entry{wickramarachchi_2017_event}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b358d3f949e34263d9549ec30b67cff5}{%
+           family={Wickramarachchi},
+           familyi={W\bibinitperiod},
+           given={Anuradha},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{b358d3f949e34263d9549ec30b67cff5}
+      \strng{fullhash}{b358d3f949e34263d9549ec30b67cff5}
+      \strng{bibnamehash}{b358d3f949e34263d9549ec30b67cff5}
+      \strng{authorbibnamehash}{b358d3f949e34263d9549ec30b67cff5}
+      \strng{authornamehash}{b358d3f949e34263d9549ec30b67cff5}
+      \strng{authorfullhash}{b358d3f949e34263d9549ec30b67cff5}
+      \field{labelalpha}{Wi17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Event Driven Architecture Pattern}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/event-driven-architecture-pattern-b54fc50276cd
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/event-driven-architecture-pattern-b54fc50276cd
       \endverb
     \endentry
   \enddatalist

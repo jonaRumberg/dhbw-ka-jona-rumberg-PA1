@@ -1,34 +1,62 @@
 \section{Theoretischer Hintergrund}
-\subsection{\ac{EDA}}
-\subsubsection*{Fragen an diesen Abschnitt}
-\begin{itemize}
-    \item Was ist \ac{EDA}?
-    \item Was ist ein Event?
-    \item Warum ist \ac{EDA} relevant?
-\end{itemize}
+\subsection{Event-Driven Architecture}
+% \subsubsection*{Fragen an diesen Abschnitt}
+% \begin{itemize}
+%     \item Was ist \ac{EDA}?
+%     \item Was ist ein Event?
+%     \item Warum ist \ac{EDA} relevant?
+% \end{itemize}
+\subsubsection*{Ereignisse}
+Zu Beginn der Betrachtung sollte der grundlegende Begriff des Ereignisses geklärt werden. Die heute gängige Definition eines Ereignisses im Kontext von \ac*{EDA} ist, dass ein Ereignis eine 'signifikante Änderung des Zustands' ist.\footcite[Vgl.][S. 4]{EDA2006} Diese relativ breite Definition hat zur Folge, dass eine große Menge an Geschäftsvorfällen als Ereignis begriffen werden kann. Als Standardbeispiel kann hier die Stornierung eines Fluges genannt werden, aber auch ein Eingang eines Auftrages, die Einstellung eines Mitarbeiters oder so etwas Reguläres wie der Beginn eines Arbeitstages, gemessen durch eine Stechuhr, konstituieren ein Ereignis. Schulte misst diesen Ereignissen in Studien für Gartner eine übergreifende Signifikanz zu. Im Grunde sei die Welt an sich ereignisgesteuert und Ereignisse als Grundlage von Architekturüberlegungen bilden diesen Umstand am besten ab. \footcite[Vgl. ][S. 2]{schulte2003growing} Mit dieser Annahme als Grundlage der Betrachtung wird noch einmal die Relevanz der Überlegungen klar. Die Modellierung von Geschäftsvorfällen, oder besser Geschäftsereignissen, in einer ereignisgesteuerten Weise bildet tatsächliche Verhältnisse akkurater und intuitiver und somit besser ab, als herkömmliche Architekturansätze. \footcite[Vgl. ][S. 13]{EDA2010} Diese Erkenntnis wird besonders relevant, wenn man betrachtet, dass mit einer wachsenden Gesamtmenge an Ereignissen die strukturierte Abarbeitung dieser immer wichtiger wird. Durch die immer ausgeprägteren \ac{IT} Landschaften von Unternehmen, die immer filigraner in der Lage sind Geschäftsvorfälle zu erfassen, oder Entwicklungen wie das Internet of Things, wächst die Datenmenge, die verarbeitet werden kann rapide. Die Interpretation dieser Daten als Ereignisse und deren strukturierte Verarbeitung stellt eine Möglichkeit dar, diese Daten sinnvoll zu nutzen und aus dieser Entwicklung Wert zu schöpfen.\footcite[Vgl. ][S. 16]{EDA2010}
+Eine im Kontext der Unternehmenssoftware relevante Unterscheidung ist dabei die zwischen technischen und Anwendungsereignissen. Anwendungsereignisse sind Ereignisse, die fachliche Bedeutung haben, wie beispielsweise 'ein Kundenauftrag geht ein', 'eine Zahlung wurde getätigt' oder 'Ein Mitarbeiter betritt das Gebäude'. Ein technisches Ereignis hingegen ist ein Ereignis, dass ausschließlich systemintern relevant ist und zu Kommunikation und Koordination von Systemkomponenten genutzt wird. Beispiele wären 'Ein Datenbankeintrag wurde erstellt' oder 'Eine Datei wurde hochgeladen'. Es ist üblich, dass Anwendungsereignisse einen höheren semantischen Stellenwert einnehmen, also dass in der Verarbeitung eines Anwendungsereignisses viele technische Ereignisse ausgelöst werden. \footcite[Vgl. ][S. 245f]{CLOUD2021}
 \subsubsection*{Ereignisorientierung als Architekturansatz}
-Zuerst einmal handelt es sich bei \ac{EDA}\footnote{Da sich bis jetzt keine allgemeingültige deutsche Übersetzung der Fachterminologie durchgesetzt hat, sollen in dieser Arbeit die englischen Begrifflichkeiten verwendet werden.} um ein Konzept der Prozessmodellierung. Im Gegensatz zur gewöhnlichen Ablauf-orientierten Modellierung werden die Prozesse nicht als aufeinanderfolgende Schritte, sondern als Reaktionen auf Zustände konzeptioniert. Daraus resultiert, dass nicht mehr die prozedurale Abhandlung von Arbeitsschritten die zentrale Aufgabe in der Anwendungssystem-Entwicklung darstellt, sondern die Reaktion auf Ereignisse. Im Mittelpunkt von Architekturentscheidungen steht die Frage: "Was passiert, wenn dieses Ereignis eintritt?" und nicht mehr: "Welche Schritte müssen zur Erfüllung dieser Anforderung gegangen werden?". Was daraus resultiert, ist eine Architektur, die schon mit Beginn der Konzeption wesentlich agiler und robuster ist, da von Anfang an mit der Annahme gearbeitet wird, dass prinzipiell zu jedem Zeitpunkt jedes Ereignis eintreten kann.\footcite[Vgl.][S.30]{EDA2010}
+Zuerst einmal handelt es sich bei \ac{EDA}\footnote{Da sich bis jetzt keine allgemeingültige deutsche Übersetzung der Fachterminologie durchgesetzt hat, sollen in dieser Arbeit die englischen Begrifflichkeiten verwendet werden.} um ein Konzept der Prozessmodellierung. Im Gegensatz zur gewöhnlichen Ablauf-orientierten Modellierung werden die Prozesse nicht als aufeinanderfolgende Schritte, sondern als Reaktionen auf Zustände konzeptioniert. Daraus resultiert, dass nicht mehr die prozedurale Abhandlung von Arbeitsschritten die zentrale Aufgabe in der Anwendungssystem-Entwicklung darstellt, sondern die Reaktion auf Ereignisse. Im Mittelpunkt von Architekturentscheidungen steht die Frage: 'Was passiert, wenn dieses Ereignis eintritt?' und nicht mehr: 'Welche Schritte müssen zur Erfüllung dieser Anforderung gegangen werden?'. Was daraus resultiert, ist eine Architektur, die schon mit Beginn der Konzeption wesentlich agiler und robuster ist, da von Anfang an mit der Annahme gearbeitet wird, dass prinzipiell zu jedem Zeitpunkt jedes Ereignis eintreten kann.\footcite[Vgl.][S.30]{EDA2010}
 Ein Definitionsversuch für \ac{EDA} könnte also wie folgt lauten: Event-Driven Archtitecture bezeichnet einen Modellierungsansatz für ein verteiltes, asynchrones System, das verschiedene Komponenten durch eine zentrale Verarbeitung von Events verbindet.\footcite[Vgl.][S. 248]{CLOUD2021}
 \subsubsection*{Technische Grundkonzepte der \ac{EDA}}
 \begin{figure}[H]
   \centering
 	\includegraphics[width=0.8\textwidth]{Graphik EDA.png}
-   \caption[Komponenten der \ac{EDA}]{Komponenten der \ac{EDA}\footnotemark}
+   \caption[Komponenten der Event-Driven Architecture]{Komponenten der \ac{EDA}\footnotemark}
 \end{figure}
 \footnotetext{\cite[][S. 249]{CLOUD2021}}
 Die wichtigste Komponente eines durch \ac{EDA} modellierten Systems ist die zentrale Plattform zur Verarbeitung der Ereignisse in der Mitte der Architektur. Sie stellt die Infrastruktur bereit, um Events anzunehmen und diese weiterzugeben. Um einen Mehrwert aus dem System zu ziehen, muss sie darüber hinaus in der Lage sein, einen Kontext um Events herzustellen, d.h. sie in Verbindung mit anderen Ereignissen zu setzten, Ereignisse auf höheren Abstraktionsebenen zu erstellen und Ereignisse gegebenenfalls zu konsolidieren. Man spricht bei diesem Prozess von 
 \ac{CEP}.\\
-Weitere Komponenten des \ac{EDA} sind Publisher und Subscriber. \footnote{Für diese Komponenten finden sich in der Fachliteratur verschiedene Bezeichnungen. Außer Publisher und Subscriber findet man noch Producer und Receiver oder Producer und Listener.} Sie sind explizit von außen an das System herangeschaltet, d.h. sie haben keine Kenntnis voneinander und können auch auf völlig unterschiedlichen Plattformen basieren. Das bringt den Vorteil, dass ein durch \ac{EDA} modelliertes System inhärent modular aufgebaut ist und so zum einen weniger anfällig für Totalausfälle ist, da die Komponenten unabhängig sind, und zum anderen prädestiniert für Integrationsvorhaben ist.
-Zu diesen grundlegenden Komponenten können im Zuge des \ac{CEP} noch einige weitere Konzepte hinzukommen. Die Abbildung zeigt beispielsweise eine Datenbank auf der Ereignisse persistent abgelegt werden können und die Einteilung von Ereignissen in Klassen, sogenannte Topics, die die Handhabung von verschiedenen Ereignisarten über ein System ermöglichen.
-\subsubsection*{Ereignisse}
-Zu klären bleibt die grundlegende Frage, was nun ein Ereignis ist. Die heute gängige Definition eines Ereignis im Kontext von \ac*{EDA} ist, dass ein Ereignis eine "signifikante Änderung des Zustands" ist.\footcite[Vgl.][S. 4]{EDA2006}
+Weitere Komponenten des \ac{EDA} sind Publisher und Subscriber.\footnote{Für diese Komponenten finden sich in der Fachliteratur verschiedene Bezeichnungen. Außer Publisher und Subscriber findet man noch Producer und Receiver oder Producer und Listener.} Sie sind explizit von außen an das System herangeschaltet, d.h. sie haben keine Kenntnis voneinander und können auch auf völlig unterschiedlichen Plattformen basieren. Das bringt den Vorteil, dass ein durch \ac{EDA} modelliertes System inhärent modular aufgebaut ist und so zum einen weniger anfällig für Totalausfälle ist, da die Komponenten unabhängig sind, und zum anderen prädestiniert für Integrationsvorhaben ist.
+Zu diesen grundlegenden Komponenten können im Zuge des \ac{CEP} noch einige weitere Konzepte hinzukommen. Die Abbildung zeigt beispielsweise eine Datenbank auf der Ereignisse persistent abgelegt werden können und die Einteilung von Ereignissen in Klassen, sogenannte Topics, die die Handhabung von verschiedenen Ereignisarten über ein System ermöglichen.\\
+Hieraus ergeben sich ein paar grundlegende Fragen. Die Spezifikation der Event Platform entscheidet, wie genau Events aufgebaut sein müssen und wie Publisher und Subscriber angebunden werden. Auch weitere Überlegungen bezüglich Analyse des Ereignisflusses, Abstraktion von Ereignissen und Kompatibilität zu anderen Plattformen fallen auf Ebene der Event Platform an. Die Event Platform ist also der zentrale Baustein für die technische Umsetzung einer \ac{EDA}.\footcite[Vgl. ][S. 244]{CLOUD2021}
+\subsubsection*{Technische Umsetzung von \ac{EDA}}
+Aus den bis hierher besprochenen Grundlagen ergeben sich einige technische Überlegungen, die bei dem Aufbau einer \ac{EDA} gefasst werden müssen.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.0\textwidth]{Cloud Events Example.png}
+  \caption[Beispiel für ein Ereignismodell]{Beispiel für ein Ereignismodell nach dem offen Standard 'CloudEvents' \footnotemark}
+  \label{cloudeventslabel}
+\end{figure}
+\footnotetext{Eigene Darstellung nach einem Beispiel der CloudEvents Dokumentation \cite[][]{cloudeventgit}}
+Ereignisse als grundlegendes Konzept der \ac{EDA} müssen in einem Ereignismodel beschrieben werden. Dieses Modell muss alle relevanten Informationen über ein Ereignis vermitteln, es sollten aber auch weitere Anforderungen an das Modell beachtet werden. Das Ereignis muss technologisch kompatibel zu allen Publishern und Subscribern sein, die an das System angeschlossen werden sollen. Es sollte zu den Nutzdaten Metadaten enthalten, die eine analytische Betrachtung des Ereignisstroms zulassen. Weiterhin sollte immer betrachtet werden, auf welcher Abstraktionsebene das Ereignis agiert, hier kann beispielsweise die technische Unterscheidung von technischen und Anwendungsereignissen sinnvoll sein. Was jedoch nie im Ereignismodell enthalten ist, ist die Verarbeitungslogik, diese liegt allein bei den Subscribern.\footcite[Vgl. ][S. 95]{EDA2010} In der Anwendung werden Ereignisse häufig als strukturierter Datentyp dargestellt, JSON oder XML als Datenformat sind üblich. Ein Beispiel findet sich in Abbildung \ref{cloudeventslabel}.
+
+Die Architektur der Event Platform hat, wie schon angerissen, besondere Relevanz. Im Grunde unterscheiden sich zwei gängige Topologien, die hier angewandt werden können: Die 'Mediator-Topology' und die 'Broker-Topology'. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Mediator Topology.png}
+  \caption[Mediator-Topology]{Mediator-Topology \footnotemark}
+  \label{mediatortop}
+\end{figure}
+\footnotetext{\cite[][]{wickramarachchi_2017_event}}
+Die 'Mediator-Topology' sieht eine zentrale Event-Queue vor, in die Ereignisse eingespeist werden. Diese werden dann an die verschiedenen Subscriber verteilt, die anhand verschiedener Topics\footnote{In der Abbildung \ref{mediatortop} als Channels bezeichnet} gruppiert werden. Im Grunde werden in dieser Topologie also die ursprünglichen Ereignisse konsumiert und daraus folgend Ereignisse für jeden Channel, an den es gesendet werden soll, erzeugt und weitergegeben. Die Idee hinter diesem Prinzip ist es, auch Ereignisse, deren Verarbeitung mehrere Schritte benötigt orchestrieren zu können. \footcite[Vgl. ][]{wickramarachchi_2017_event} \\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Broker Topology.png}
+  \caption[Broker-Topology]{Broker-Topology \footnotemark}
+  \label{brokertop}
+\end{figure}
+\footnotetext{\cite[][]{wickramarachchi_2017_event}}
+Die 'Broker-Topology' sieht keine zentrale Event-Queue vor. Hier werden die Ereignisse stattdessen zentral an alle relevanten Channels verteilt, ohne sie weiterzuverarbeiten. Daraus folgt, dass wenn Ereignisse mehrschrittig abgearbeitet werden müssen eine Lösung mit Callback-Ereignissen gefunden werden muss. In Abbildung \ref{brokertop} ist dies an Doppelpfeilen zu erkennen, die zwischen manchen Subscribern und dem Broker laufen. \footcite[Vgl. ][]{wickramarachchi_2017_event}
 
 \subsection{RESTful \ac{API}}
+\missing{add subsubsections}
 \subsection{Technologie im Anwendungsbeispiel}
 \subsection{Forschungsmethodik}
 \subsection{Zusammenfassung des theoretischen Teils}
-
-
-
- 

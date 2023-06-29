@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  23 JUN 2023 10:56
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  29 JUN 2023 16:14
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -259,12 +259,12 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	 on input line 16
+(polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 16
 Package polyglossia Info: Option: German, spelling=new.
@@ -1105,13 +1105,342 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip84
 )
-\c@pageNumber=\count423
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/todonotes/todonotes.s
+ty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tik
+z.sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.st
+y
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.
+sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfut
+il-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfut
+il-latex.def
+\pgfutil@abb=\box56
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrc
+s.code.tex
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.te
+x)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcor
+e.sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsy
+s.sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+yslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count423
+\c@pgf@countb=\count424
+\c@pgf@countc=\count425
+\c@pgf@countd=\count426
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count427
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count428
+\pgfsyssoftpath@bigbuffer@items=\count429
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+ore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.co
+de.tex
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathuti
+l.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count430
+\pgfmath@box=\box57
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.basic.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.trigonometric.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.random.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.comparison.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.base.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.round.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.misc.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcal
+c.code.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count431
+))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.cod
+e.tex)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count432
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen196
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen256
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count433
+\pgf@shadingcount=\count434
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box61
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box62
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.
+sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys
+.sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+ys.code.tex))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.co
+de.tex))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffo
+r.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count435
+\pgfplotmarksize=\dimen262
+)
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count436
+\tikznumberofchildren=\count437
+\tikznumberofcurrentchild=\count438
+\tikz@fig@count=\count439
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count440
+\pgfmatrixcurrentcolumn=\count441
+\pgf@matrix@numberofcolumns=\count442
+)
+\tikz@expandcount=\count443
+
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count444
+\calc@Bcount=\count445
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count446
+\calc@Cskip=\skip87
+)
+\c@@todonotes@numberoftodonotes=\count447
+)
+\c@pageNumber=\count448
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./Praxisarbeit_Master.aux)
+
+(./Praxisarbeit_Master.aux)
 \openout1 = Praxisarbeit_Master.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1323,17 +1652,17 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
-\scratchdimen=\dimen165
-\scratchbox=\box56
-\nofMPsegments=\count425
-\nofMParguments=\count426
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count427
-\MPscratchDim=\dimen166
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count449
+\scratchdimen=\dimen273
+\scratchbox=\box67
+\nofMPsegments=\count450
+\nofMParguments=\count451
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen274
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
+\everyMPtoPDFconversion=\toks41
 )
 (C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf
 -base.sty
@@ -1364,12 +1693,12 @@ Package biblatex Info: ... file 'german.lbx' found.
 bx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	
+(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	 on input line 580
+(polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 580
 )
@@ -1409,9 +1738,16 @@ Package biblatex Info: Reference segment=0 on input line 14.
 Package hyperref Info: Link coloring OFF on input line 14.
  (./Praxisarbeit_Master.out)
 (./Praxisarbeit_Master.out)
-\@outlinefile=\write4
+\@outlinefile=\write5
 
-\openout4 = Praxisarbeit_Master.out
+\openout5 = Praxisarbeit_Master.out
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 14.
+
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 LaTeX Info: Redefining \rmfamily on input line 14.
@@ -1423,13 +1759,13 @@ Module polyglossia Info: Language ngerman already loaded; id is 4 on input line
 14
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
- (./text/template/titlepage.tex
-<images/DHBW_logo.pdf, id=127, 199.1701pt x 105.27531pt>
+(./text/template/titlepage.tex
+<images/DHBW_logo.pdf, id=130, 199.1701pt x 105.27531pt>
 File: images/DHBW_logo.pdf Graphic file (type pdf)
 <use images/DHBW_logo.pdf>
 Package luatex.def Info: images/DHBW_logo.pdf  used on input line 13.
 (luatex.def)             Requested size: 113.81102pt x 60.15854pt.
-<images/SAP_R_grad_scrn.png, id=128, 414.1071pt x 205.0059pt>
+<images/SAP_R_grad_scrn.png, id=131, 414.1071pt x 205.0059pt>
 File: images/SAP_R_grad_scrn.png Graphic file (type png)
 <use images/SAP_R_grad_scrn.png>
 Package luatex.def Info: images/SAP_R_grad_scrn.png  used on input line 14.
@@ -1445,7 +1781,8 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [1
 
 {C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./images/DHB
-W_logo.pdf><./images/SAP_R_grad_scrn.png>] (./text/template/declaration.tex
+W_logo.pdf><./images/SAP_R_grad_scrn.png>]
+(./text/template/declaration.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Overfull \hbox (4.88892pt too wide) in paragraph at lines 22--26
@@ -1455,6 +1792,21 @@ Overfull \hbox (4.88892pt too wide) in paragraph at lines 22--26
 )
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [2]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu (./Praxisarbeit_Master.tdo
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+\tf@tdo=\write6
+
+\openout6 = Praxisarbeit_Master.tdo
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [3]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu (./Praxisarbeit_Master.toc
 Package polyglossia Info: Option: German, spelling=new.
@@ -1476,8 +1828,6 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-Package acronym Info: Label `acro:EDA' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
@@ -1501,7 +1851,7 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [3]
+uage deu [4]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1510,51 +1860,105 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
-\tf@toc=\write5
+\tf@toc=\write7
 
-\openout5 = Praxisarbeit_Master.toc
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [4] (./text/acronym.tex
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu)
+\openout7 = Praxisarbeit_Master.toc
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [5]
+(./text/acronym.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-(./Praxisarbeit_Master.lof
-LaTeX Info: Redefining \rmfamily on input line 2.
-LaTeX Info: Redefining \sffamily on input line 2.
-LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
-\tf@lof=\write6
-
-\openout6 = Praxisarbeit_Master.lof
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [6]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu (./Praxisarbeit_Master.lot
+uage deu (./Praxisarbeit_Master.lof
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
-\tf@lot=\write7
+\tf@lof=\write8
 
-\openout7 = Praxisarbeit_Master.lot
+\openout8 = Praxisarbeit_Master.lof
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [7]
-(./text/chapter1.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+(./Praxisarbeit_Master.lot
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+\tf@lot=\write9
+
+\openout9 = Praxisarbeit_Master.lot
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [8] (./text/chapter1.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 5.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:EDA' newly defined as it shall be overridden
+although it is yet undefined on input line 6.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1584,19 +1988,8 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [2] (./text/chapter2.tex
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 2.
-
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
+uage deu [2]
+(./text/chapter2.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1621,15 +2014,14 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
+although it is yet undefined on input line 10.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Graphik EDA.png, id=281, 623.83063pt x 287.57437pt>
-File: images/Graphik EDA.png Graphic file (type png)
-<use images/Graphik EDA.png>
-Package luatex.def Info: images/Graphik EDA.png  used on input line 15.
-(luatex.def)             Requested size: 341.43437pt x 157.39848pt.
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1638,8 +2030,51 @@ luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [3]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Graphik EDA.png, id=329, 623.83063pt x 287.57437pt>
+File: images/Graphik EDA.png Graphic file (type png)
+<use images/Graphik EDA.png>
+Package luatex.def Info: images/Graphik EDA.png  used on input line 18.
+(luatex.def)             Requested size: 341.43437pt x 157.39848pt.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [4]
 Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
-although it is yet undefined on input line 20.
+although it is yet undefined on input line 23.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1647,6 +2082,22 @@ uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [5<./images/Graphik EDA.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Cloud Events Example.png, id=364, 873.76437pt x 406.51875pt>
+File: images/Cloud Events Example.png Graphic file (type png)
+<use images/Cloud Events Example.png>
+Package luatex.def Info: images/Cloud Events Example.png  used on input line 32
+.
+(luatex.def)             Requested size: 426.79135pt x 198.56322pt.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
@@ -1655,31 +2106,75 @@ uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [4<./images/Graphik EDA.png>]
+uage deu [6<./images/Cloud Events Example.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Mediator Topology.png, id=381, 417.56pt x 262.48062pt>
+File: images/Mediator Topology.png Graphic file (type png)
+<use images/Mediator Topology.png>
+Package luatex.def Info: images/Mediator Topology.png  used on input line 42.
+(luatex.def)             Requested size: 341.43437pt x 214.63873pt.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Broker Topology.png, id=388, 465.74pt x 239.39438pt>
+File: images/Broker Topology.png Graphic file (type png)
+<use images/Broker Topology.png>
+Package luatex.def Info: images/Broker Topology.png  used on input line 51.
+(luatex.def)             Requested size: 341.43437pt x 175.50526pt.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [7<./images/Mediator Topology.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 27.
+(hyperref)                removing `\@ac' on input line 58.
 
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu)
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [5] (./text/chapter3.tex
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [6] (./text/chapter4.tex
+uage deu [8<./images/Broker Topology.png>] (./text/chapter3.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1689,7 +2184,8 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [7] (./text/chapter5.tex
+uage deu [9]
+(./text/chapter4.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1699,7 +2195,18 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [8] (./text/template/references.tex
+uage deu [10] (./text/chapter5.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [11]
+(./text/template/references.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
@@ -1714,13 +2221,15 @@ Package biblatex Warning: Type 'incollection' not found on input line 7.
 
 LaTeX Warning: Empty bibliography on input line 7.
 
-
-Package biblatex Warning: Type 'article' not found on input line 10.
-
-
-LaTeX Warning: Empty bibliography on input line 10.
-
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
@@ -1738,7 +2247,7 @@ LaTeX Warning: Empty bibliography on input line 20.
 
 )
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [8
+uage deu [9
 
 ] (./text/appendix.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1881,36 +2390,37 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [9] (./Praxisarbeit_Master.aux)
+uage deu [10] (./Praxisarbeit_Master.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 9CE20E19B0103A13786C634E6FB728B3;5566.
+(rerunfilecheck)             Checksum: D753BF45DEC28F0BE7E17E7D209CE7B9;5679.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 23783 strings out of 478031
+ 34491 strings out of 478031
  125038,1977958 words of node,token memory allocated
- 588 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 9 glue, 3 kern, 1 glyph, 12 attribute, 67 glue_spec
-, 12 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:658,3:328,4:75,5:801,6:93,7:5342,8:58,9:452,10:9,11:649
- 43674 multiletter control sequences out of 65536+600000
+ 5848 words of node memory still in use:
+   115 hlist, 13 vlist, 1 rule, 6 disc, 8 local_par, 173 glue, 6 kern, 12 penalt
+y, 40 glyph, 442 attribute, 68 glue_spec, 442 attribute_list, 9 write, 7 save_po
+s, 248 pdf_literal, 3 pdf_action, 8 pdf_colorstack nodes
+   avail lists: 1:4,2:992,3:674,4:69,5:896,6:87,7:6008,8:97,9:447,10:13,11:763
+ 53991 multiletter control sequences out of 65536+600000
  63 fonts using 14528391 bytes
- 84i,12n,112p,1277b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,12n,112p,2139b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@EDA2006'
 <C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Ca
 rlito-Bold.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/go
 ogle/carlito/Carlito-Regular.ttf>
-Output written on Praxisarbeit_Master.pdf (17 pages, 417385 bytes).
+Output written on Praxisarbeit_Master.pdf (21 pages, 767419 bytes).
 
-PDF statistics: 371 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 131072)
- 249 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 467 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 131072)
+ 264 words of extra memory for PDF output out of 10000 (max. 100000000)
 
