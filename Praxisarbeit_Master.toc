@@ -3,8 +3,8 @@
 \contentsline {section}{Selbstständigkeitserklärung}{II}{section*.1}%
 \contentsline {section}{Inhaltsverzeichnis}{IV}{section*.3}%
 \contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.5}%
-\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.6}%
-\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.7}%
+\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.7}%
+\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.8}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zielsetung}{1}{subsection.1.2}%
@@ -15,20 +15,22 @@
 \contentsline {subsection}{\numberline {2.1}Event-Driven Architecture}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}RESTful \ac {API}}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{8}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Anwendung in der Praxis}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Analyse des bestehenden Systems}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Mögliche Anwendung der theoretischen Erkenntnisse}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Implementierung eines Prototyps}{9}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{10}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Resümee}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{11}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{11}{subsection.5.3}%
-\contentsline {section}{Quellenverzeichnis}{IX}{section*.20}%
-\contentsline {section}{Anhang}{X}{section*.21}%
+\contentsline {subsubsection}{\numberline {2.3.1}Cloud Events}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}RAP und Business Objects}{9}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Business Events}{9}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{9}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Anwendung in der Praxis}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Mögliche Anwendung der theoretischen Erkenntnisse}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Implementierung eines Prototyps}{10}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Resümee}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{12}{subsection.5.3}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.24}%
+\contentsline {section}{Anhang}{X}{section*.25}%
 \xpginauxfilefalse 
