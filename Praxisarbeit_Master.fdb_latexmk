@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Praxisarbeit_Master"] 1689082541 "Praxisarbeit_Master.bcf" "Praxisarbeit_Master.bbl" "Praxisarbeit_Master" 1689082730 0
+["biber Praxisarbeit_Master"] 1689084095 "Praxisarbeit_Master.bcf" "Praxisarbeit_Master.bbl" "Praxisarbeit_Master" 1689084205 0
   "./text/bibliography.bib" 1688048448 4281 e07d793272cbae22da831a8b2cca1009 ""
-  "Praxisarbeit_Master.bcf" 1689082729 108824 7bbe1816100084ab8965c0f14c04722d "lualatex"
+  "Praxisarbeit_Master.bcf" 1689084204 108824 7bbe1816100084ab8965c0f14c04722d "lualatex"
   (generated)
   "Praxisarbeit_Master.bbl"
   "Praxisarbeit_Master.blg"
   (rewritten before read)
-["lualatex"] 1689082724 "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" "Praxisarbeit_Master.pdf" "Praxisarbeit_Master" 1689082730 0
+["lualatex"] 1689084198 "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" "Praxisarbeit_Master.pdf" "Praxisarbeit_Master" 1689084205 0
   "C:/Users/I569398/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1688047251 91443 9acc1b138ca7f608e1e7f311f7105b87 ""
   "C:/Users/I569398/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/carlito-bold.luc" 1677768380 513983 897c7fb81d95b0002096e8440556fd14 ""
   "C:/Users/I569398/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/carlito-bolditalic.luc" 1677768382 419239 565e2eca9aa09172c4070fd6a6cdbc6a ""
@@ -261,15 +261,15 @@
   "C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload.lua" 1664816352 13565 83bac25a8cf8630acccd6a7f8bb9f791 ""
   "C:/Users/I569398/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.sty" 1443949118 10170 b1a2248f43cab899e3fe36f676176865 ""
   "C:/Users/I569398/AppData/Roaming/MiKTeX/tex/generic/config/language.dat.lua" 1687422323 13325 36a21317ffc97bf358f29130d352a772 ""
-  "Praxisarbeit_Master.aux" 1689082729 11599 99ba6a86caed092e9f1e71a1d61628f4 "lualatex"
-  "Praxisarbeit_Master.bbl" 1689082546 9351 e9877572dbbc58ed305b6bf31d8b20ff "biber Praxisarbeit_Master"
-  "Praxisarbeit_Master.lof" 1689082729 655 a0e485ad87225e470ebaa2743976d25a "lualatex"
-  "Praxisarbeit_Master.lot" 1689082729 184 891162efbadb405f51e519370dbc3ef4 "lualatex"
-  "Praxisarbeit_Master.out" 1689082729 5139 5e331a867b2ed58258036a141b5d1c98 "lualatex"
-  "Praxisarbeit_Master.run.xml" 1689082729 2611 4e2ec458ca6fb44eda4900e1aa573202 "lualatex"
-  "Praxisarbeit_Master.tdo" 1689082729 373 80d4921fcd3c375aeb79405ea11f4eb0 "lualatex"
+  "Praxisarbeit_Master.aux" 1689084204 12511 b130b42c7f26856027720c25d0b10a88 "lualatex"
+  "Praxisarbeit_Master.bbl" 1689084099 9351 e9877572dbbc58ed305b6bf31d8b20ff "biber Praxisarbeit_Master"
+  "Praxisarbeit_Master.lof" 1689084204 655 6f7a4eb991fa6f72b6107f9798e28d8c "lualatex"
+  "Praxisarbeit_Master.lot" 1689084204 184 891162efbadb405f51e519370dbc3ef4 "lualatex"
+  "Praxisarbeit_Master.out" 1689084204 5139 2a1a305c03d4d3f897b5bbb26724f602 "lualatex"
+  "Praxisarbeit_Master.run.xml" 1689084204 2611 4e2ec458ca6fb44eda4900e1aa573202 "lualatex"
+  "Praxisarbeit_Master.tdo" 1689084204 511 3ef9a87d210b01b3cdf1c88ac37251d0 "lualatex"
   "Praxisarbeit_Master.tex" 1688047492 1543 b9722c3ddb6f17419c8d2043a3f575fe ""
-  "Praxisarbeit_Master.toc" 1689082729 2528 847577e6fb5f2a9619a2c4d6b0f9b9ba "lualatex"
+  "Praxisarbeit_Master.toc" 1689084204 2528 3c6fe86b4a1b6cc0fa6954b83f9d5f68 "lualatex"
   "c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA1/Praxisarbeit_Master.tex" 1688047492 1543 b9722c3ddb6f17419c8d2043a3f575fe ""
   "config.tex" 1686829657 3005 d6345782aa80f3eabf5a3bfbd3879bb3 ""
   "images/Broker Topology.png" 1687872987 114951 1fdedf359fd1e7eb86a36bc069d9d6f8 ""
@@ -279,10 +279,10 @@
   "images/Mediator Topology.png" 1687872222 109600 4790f85a2bb21f4f2c1eee199879aa6c ""
   "images/SAP_R_grad_scrn.png" 1679496269 38896 26deb202eae071a709525f44c994e6ca ""
   "images/eventingstructure.jpg" 1689081944 37992 82f23feaf74c941a3255ef90b4949f79 ""
-  "text/acronym.tex" 1689075445 556 2e105494e54009b9aa1f0ece6e1cc4ba ""
+  "text/acronym.tex" 1689084181 598 0a94809922ae9203c9f17c0391e4f302 ""
   "text/appendix.tex" 1679496269 229 3ef5de9e8a093281c9ad982103916e72 ""
   "text/chapter1.tex" 1688047901 2803 650d7af851021a463ffcd9f9ca9777df ""
-  "text/chapter2.tex" 1689082596 13813 61add494a854b0031f9c94bf6e64a37b ""
+  "text/chapter2.tex" 1689084164 15331 bc79013667398cef971cad3a98dc22f9 ""
   "text/chapter3.tex" 1689082717 470 6e0b1dda73430676bfc01f798c4fd65e ""
   "text/chapter4.tex" 1686811497 189 5f5262fe59a3db14a18925512cc34a85 ""
   "text/chapter5.tex" 1686812862 165 c89620c91477b12b02515e067629270e ""
