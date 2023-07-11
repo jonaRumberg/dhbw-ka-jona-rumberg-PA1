@@ -60,14 +60,14 @@ Die 'Broker-Topology' sieht keine zentrale Event-Queue vor. Hier werden die Erei
 \missing{add subsubsections}
 \subsection{Technologie im Anwendungsbeispiel}
 
-\subsubsection{Cloud Events}
+\subsubsection*{Cloud Events}
 Cloud Events sind ein Standard für ein Ereignismodell\footnote{Siehe Abschnitt \ref*{teda}}, um Ereignisse allgemeingültig beschreiben zu können. Von der Cloud Native Computing Foundation entwickelt, beschreibt er, wie Ereignisse aufgebaut sein müssen, um diese allgemeingültig verarbeiten und so eine Unabhängigkeit zwischen Publisher und Subscriber gewährleisten zu können. Der Standard hat mittlerweile weite Anwendung in der Industrie gefunden und wird unter anderen von Firmen wie Google, IBM und SAP in \ac{EDA}-Lösungen verwendet. \citepls \\
 Der Standard unterstützt dabei unterschiedliche Protokolle und gibt hauptsächlich vor, welche Metadaten über das Ereignis angegeben werden müssen. So trifft er keine Aussage über die Struktur der Nutzdaten im Ereignis, sondern spezifiziert viel mehr, dass Beispielweise eine Information über den Publisher vorhanden sein muss, die Zeit und das Datum angegeben sein muss, zu der das Ereignis gesendet wurde oder eine Versionierung des Ereignisses erkennbar ist. Die Zielsetzung des Standards ist es somit nicht, inhaltliche Kompatibilität herzustellen, sondern schlicht die korrekte Verarbeitung und Weiterleitung der Ereignisse auf Seite der Event-Platform zu gewährleisten. Diese kann, da die Ereignisse, die sie verarbeitet, einem Standard folgen, Ereignisse von verschiedensten Publishern annehmen. Zudem kann, da Cloud Events für verschiedene Protokolle definiert ist, mit verschiedenen Protokollen an sie angeschlossen werden und noch mehr Unabhängigkeit geboten werden. Cloud Events selbst definiert Ziel so, "die Interoperabilität von Ereignissystemen zu definieren, die es Diensten ermöglichen, Ereignisse zu produzieren oder zu konsumieren, wobei Produzenten und Konsumenten unabhängig voneinander entwickelt und eingesetzt werden können."\citepls
 
-\subsubsection{RAP und Business Objects}
-\ac{RAP} ist ein Programmiermodel, 
+\subsubsection*{RAP und Business Objects}
+Das \ac{RAP} ist ein Programmiermodel, das eine Reihe von Konzepten, Sprachen und Frameworks einschließt, die zusammen die Möglichkeit bieten im SAP Umfeld Applikationen unter Verwendung der Paradigmen einer \ac*{REST}ful \ac{API} zu entwickeln. \citepls
 
-\subsubsection{Business Events}
+Den Kern der Entwicklung nach diesem Modell bildet die Arbeit mit sogenannten \ac{BO}s. Es handelt sich bei diesen um das Konzept von hierarchisch aufgebauten Objekten, die den Zugriff auf Daten und Aktionen, sogenannte Behaviors zu ermöglichen. An diese \ac{BO}s lassen sich zudem weitere Dienste anknüpfen, die beispielsweise die Datenstruktur in ein User-Interface umsetzen, aus ihr eine \ac{API} generieren oder Ähnliches. Ein \ac{BO} kann dabei ein beliebiges Objekt aus der echten Welt modellieren, so könnte es beispielsweise ein Produkt, eine Reise oder einen Verkaufsabschluss mit den zugehörigen Daten repräsentieren. Unter einem Hauptknoten eines solchen Objektes hängen dann weitere zugehörige Daten, aber auch Aktionen. Bei diesen kann es sich zum Beispiel um gewöhnliche transaktionale Operationen wie erstellen, löschen oder ändern handeln, aber auch dem Anwendungsfall spezifische Operationen, wie die Weiterverarbeitung eines Produktes oder die Genehmigung einer Reise sind denkbar.\citepls
 
 \subsection{Forschungsmethodik}
 \subsection{Zusammenfassung des theoretischen Teils}
