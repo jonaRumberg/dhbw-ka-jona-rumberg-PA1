@@ -2,9 +2,9 @@
 \selectlanguage *[spelling=new, babelshorthands=true]{german}
 \contentsline {section}{Selbstständigkeitserklärung}{II}{section*.1}%
 \contentsline {section}{Inhaltsverzeichnis}{IV}{section*.3}%
-\contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.5}%
-\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.7}%
-\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.8}%
+\contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.4}%
+\contentsline {section}{Abbildungsverzeichnis}{VII}{section*.6}%
+\contentsline {section}{Tabellenverzeichnis}{VIII}{section*.7}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zielsetung}{1}{subsection.1.2}%
@@ -13,20 +13,20 @@
 \contentsline {subsection}{\numberline {1.5}Vorgehensweise und Aufbau der Arbeit}{2}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Event-Driven Architecture}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}RESTful \ac {API}}{8}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{11}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{11}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Anwendung in der Praxis}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Implementierung eines Prototyps}{12}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{13}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Resümee}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{14}{subsection.5.3}%
-\contentsline {section}{Quellenverzeichnis}{IX}{section*.37}%
-\contentsline {section}{Anhang}{X}{section*.38}%
+\contentsline {subsection}{\numberline {2.2}RESTful API}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Anwendung in der Praxis}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Implementierung eines Prototyps}{13}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Resümee}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{15}{subsection.5.3}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.41}%
+\contentsline {section}{Anhang}{X}{section*.42}%
 \xpginauxfilefalse 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  11 JUL 2023 16:03
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  13 JUL 2023 14:01
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -259,10 +259,10 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            righthyphenmin	2
 (polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1901.pat.txt on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
@@ -1693,10 +1693,10 @@ Package biblatex Info: ... file 'german.lbx' found.
 bx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            righthyphenmin	2
 (polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1996.pat.txt on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
@@ -1815,6 +1815,8 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 \tf@tdo=\write6
 
@@ -1844,8 +1846,6 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1900,12 +1900,15 @@ Package acronym Info: Label `acro:ABAP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 14.
 
-Overfull \hbox (13.59146pt too wide) in paragraph at lines 14--16
+Overfull \hbox (13.59146pt too wide) in paragraph at lines 14--15
 [][][][][]\TU/carlito(0)/m/n/12 Ad-van-ced Busi-ness Ap-pli-ca-ti-on Pro-grammin
 g ([])[] RESTful Ap-pli-ca-ti-on Pro-gramming
  []
 
-)
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [6]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2054,7 +2057,7 @@ uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 10.
+although it is yet undefined on input line 4.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2093,10 +2096,10 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Graphik EDA.png, id=353, 623.83063pt x 287.57437pt>
+<images/Graphik EDA.png, id=362, 623.83063pt x 287.57437pt>
 File: images/Graphik EDA.png Graphic file (type png)
 <use images/Graphik EDA.png>
-Package luatex.def Info: images/Graphik EDA.png  used on input line 18.
+Package luatex.def Info: images/Graphik EDA.png  used on input line 12.
 (luatex.def)             Requested size: 341.43437pt x 157.39848pt.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
@@ -2107,7 +2110,7 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [4]
 Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
+although it is yet undefined on input line 17.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2126,10 +2129,10 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Cloud Events Example.png, id=388, 873.76437pt x 406.51875pt>
+<images/Cloud Events Example.png, id=397, 873.76437pt x 406.51875pt>
 File: images/Cloud Events Example.png Graphic file (type png)
 <use images/Cloud Events Example.png>
-Package luatex.def Info: images/Cloud Events Example.png  used on input line 33
+Package luatex.def Info: images/Cloud Events Example.png  used on input line 27
 .
 (luatex.def)             Requested size: 426.79135pt x 198.56322pt.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
@@ -2148,10 +2151,10 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [6<./images/Cloud Events Example.png>]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Mediator Topology.png, id=405, 417.56pt x 262.48062pt>
+<images/Mediator Topology.png, id=414, 417.56pt x 262.48062pt>
 File: images/Mediator Topology.png Graphic file (type png)
 <use images/Mediator Topology.png>
-Package luatex.def Info: images/Mediator Topology.png  used on input line 43.
+Package luatex.def Info: images/Mediator Topology.png  used on input line 37.
 (luatex.def)             Requested size: 341.43437pt x 214.63873pt.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
@@ -2171,16 +2174,16 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Broker Topology.png, id=412, 465.74pt x 239.39438pt>
+<images/Broker Topology.png, id=421, 465.74pt x 239.39438pt>
 File: images/Broker Topology.png Graphic file (type png)
 <use images/Broker Topology.png>
-Package luatex.def Info: images/Broker Topology.png  used on input line 52.
+Package luatex.def Info: images/Broker Topology.png  used on input line 46.
 (luatex.def)             Requested size: 341.43437pt x 175.50526pt.
 luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
 uage deu
@@ -2198,11 +2201,57 @@ luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 59.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 55.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:WWW' newly defined as it shall be overridden
+although it is yet undefined on input line 56.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (19.57974pt too wide) in paragraph at lines 55--57
+\TU/carlito(0)/m/n/12 Eine für den Zweck der Ar-beit be-son-ders re-le-van-te 
+Klas-se von [][]s sind so-ge-nann-te Web-[][]s.
+ []
 
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [8<./images/Broker Topology.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Package acronym Info: Label `acro:REST' newly defined as it shall be overridden
+
+although it is yet undefined on input line 58.
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
@@ -2225,26 +2274,23 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [8<./images/Broker Topology.png>]
+uage deu [9]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Package acronym Info: Label `acro:RAP' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
-Package acronym Info: Label `acro:REST' newly defined as it shall be overridden
-
-although it is yet undefined on input line 69.
+although it is yet undefined on input line 77.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [10]
 Package acronym Info: Label `acro:BO' newly defined as it shall be overridden
-although it is yet undefined on input line 71.
+although it is yet undefined on input line 79.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [9]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2256,7 +2302,7 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Package acronym Info: Label `acro:BTP' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 88.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2265,21 +2311,21 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [11]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [10]
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [11] (./text/chapter3.tex
+uage deu [12] (./text/chapter3.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/eventingstructure.jpg, id=475, 614.295pt x 593.21625pt>
+<images/eventingstructure.jpg, id=521, 614.295pt x 593.21625pt>
 File: images/eventingstructure.jpg Graphic file (type jpg)
 <use images/eventingstructure.jpg>
 Package luatex.def Info: images/eventingstructure.jpg  used on input line 7.
@@ -2292,7 +2338,7 @@ luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-[12<./images/eventingstructure.jpg>] (./text/chapter4.tex
+[13<./images/eventingstructure.jpg>] (./text/chapter4.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2302,7 +2348,7 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [13]
+uage deu [14]
 (./text/chapter5.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
@@ -2313,10 +2359,14 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [14] (./text/template/references.tex
+uage deu [15] (./text/template/references.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
@@ -2509,33 +2559,33 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 2A1A305C03D4D3F897B5BBB26724F602;5139.
+(rerunfilecheck)             Checksum: CF1797AED79C7C663AE7370E77AA475F;5139.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 34622 strings out of 478031
+ 34667 strings out of 478031
  125038,1977958 words of node,token memory allocated
- 14805 words of node memory still in use:
-   311 hlist, 34 vlist, 1 rule, 13 disc, 22 local_par, 434 glue, 13 kern, 26 pen
-alty, 82 glyph, 1215 attribute, 68 glue_spec, 1215 attribute_list, 23 write, 21 
-save_pos, 717 pdf_literal, 4 pdf_action, 22 pdf_colorstack nodes
-   avail lists: 1:3,2:1427,3:854,4:53,5:889,6:72,7:6209,8:97,9:563,10:13,11:756
- 54093 multiletter control sequences out of 65536+600000
+ 16155 words of node memory still in use:
+   339 hlist, 37 vlist, 1 rule, 12 disc, 24 local_par, 473 glue, 15 kern, 24 pen
+alty, 73 glyph, 1356 attribute, 69 glue_spec, 1356 attribute_list, 26 write, 24 
+save_pos, 804 pdf_literal, 4 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:3,2:1713,3:855,4:52,5:916,6:70,7:6367,8:97,9:581,10:13,11:757
+ 54125 multiletter control sequences out of 65536+600000
  63 fonts using 14528391 bytes
  104i,12n,112p,2139b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-warning  (pdf backend): unreferenced destination with name 'REST'
+warning  (pdf backend): unreferenced destination with name 'cite.0@REST2000'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@EDA2006'
 <C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Ca
 rlito-Bold.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/go
 ogle/carlito/Carlito-Regular.ttf>
-Output written on Praxisarbeit_Master.pdf (24 pages, 822165 bytes).
+Output written on Praxisarbeit_Master.pdf (25 pages, 833727 bytes).
 
-PDF statistics: 533 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 131072)
+PDF statistics: 579 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 131072)
  248 words of extra memory for PDF output out of 10000 (max. 100000000)
 

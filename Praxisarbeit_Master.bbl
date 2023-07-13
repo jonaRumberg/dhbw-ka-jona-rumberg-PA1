@@ -112,6 +112,32 @@
       \verb https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/formats/json-format.md#1-introduction
       \endverb
     \endentry
+    \entry{REST2000}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=87dbbd44b3977c28b71d826a931add3e}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of California, Irvine}%
+      }
+      \strng{namehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{fullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{bibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorbibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authornamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorfullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \field{labelalpha}{Fi00}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Architectural Styles and the Design of Network-based Software Architectures}
+      \field{type}{phdthesis}
+      \field{year}{2000}
+    \endentry
     \entry{CLOUD2021}{book}{}
       \name{author}{1}{}{%
         {{hash=7360f3a403943b7a60b9e3efc3daeeba}{%
@@ -136,6 +162,61 @@
       \field{labeltitlesource}{title}
       \field{title}{CLOUD NATIVE ARCHITECTURE AND DESIGN : a handbook for modern day architecture and design with... enterprise-grade examples.}
       \field{year}{2021}
+    \endentry
+    \entry{reddy2011api}{book}{}
+      \name{author}{1}{}{%
+        {{hash=83deab8e3db4ef951ecbcc78e41fafbf}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \strng{fullhash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \strng{bibnamehash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \strng{authorbibnamehash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \strng{authornamehash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \strng{authorfullhash}{83deab8e3db4ef951ecbcc78e41fafbf}
+      \field{labelalpha}{Re11}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{API Design for C++}
+      \field{year}{2011}
+    \endentry
+    \entry{richardson2007web}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1d85fbf65464db3ffcf0c108192462b8}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4fe2b4735d8d0a44dacec923a762c191}{%
+           family={Ruby},
+           familyi={R\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Germany}%
+      }
+      \strng{namehash}{d89bade9579459580d9690008a52a0c2}
+      \strng{fullhash}{d89bade9579459580d9690008a52a0c2}
+      \strng{bibnamehash}{d89bade9579459580d9690008a52a0c2}
+      \strng{authorbibnamehash}{d89bade9579459580d9690008a52a0c2}
+      \strng{authornamehash}{d89bade9579459580d9690008a52a0c2}
+      \strng{authorfullhash}{d89bade9579459580d9690008a52a0c2}
+      \field{labelalpha}{RR07}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Web-services mit REST}
+      \field{year}{2007}
     \endentry
     \entry{sapse_was}{online}{}
       \name{author}{1}{}{%

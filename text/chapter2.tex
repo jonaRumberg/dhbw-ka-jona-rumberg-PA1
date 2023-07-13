@@ -1,11 +1,5 @@
 \section{Theoretischer Hintergrund}
 \subsection{Event-Driven Architecture}
-% \subsubsection*{Fragen an diesen Abschnitt}
-% \begin{itemize}
-%     \item Was ist \ac{EDA}?
-%     \item Was ist ein Event?
-%     \item Warum ist \ac{EDA} relevant?
-% \end{itemize}
 \subsubsection*{Ereignisse}
 Zu Beginn der Betrachtung sollte der grundlegende Begriff des Ereignisses geklärt werden. Die heute gängige Definition eines Ereignisses im Kontext von \ac*{EDA} ist, dass ein Ereignis eine 'signifikante Änderung des Zustands' ist.\footcite[Vgl.][S. 4]{EDA2006} Diese relativ breite Definition hat zur Folge, dass eine große Menge an Geschäftsvorfällen als Ereignis begriffen werden kann. Als Standardbeispiel kann hier die Stornierung eines Fluges genannt werden, aber auch ein Eingang eines Auftrages, die Einstellung eines Mitarbeiters oder so etwas Reguläres wie der Beginn eines Arbeitstages, gemessen durch eine Stechuhr, konstituieren ein Ereignis. Schulte misst diesen Ereignissen in Studien für Gartner eine übergreifende Signifikanz zu. Im Grunde sei die Welt an sich ereignisgesteuert und Ereignisse als Grundlage von Architekturüberlegungen bilden diesen Umstand am besten ab. \footcite[Vgl. ][S. 2]{schulte2003growing} Mit dieser Annahme als Grundlage der Betrachtung wird noch einmal die Relevanz der Überlegungen klar. Die Modellierung von Geschäftsvorfällen, oder besser Geschäftsereignissen, in einer ereignisgesteuerten Weise bildet tatsächliche Verhältnisse akkurater und intuitiver und somit besser ab, als herkömmliche Architekturansätze. \footcite[Vgl. ][S. 13]{EDA2010} Diese Erkenntnis wird besonders relevant, wenn man betrachtet, dass mit einer wachsenden Gesamtmenge an Ereignissen die strukturierte Abarbeitung dieser immer wichtiger wird. Durch die immer ausgeprägteren \ac{IT} Landschaften von Unternehmen, die immer filigraner in der Lage sind Geschäftsvorfälle zu erfassen, oder Entwicklungen wie das Internet of Things, wächst die Datenmenge, die verarbeitet werden kann rapide. Die Interpretation dieser Daten als Ereignisse und deren strukturierte Verarbeitung stellt eine Möglichkeit dar, diese Daten sinnvoll zu nutzen und aus dieser Entwicklung Wert zu schöpfen.\footcite[Vgl. ][S. 16]{EDA2010} 
 Eine im Kontext der Unternehmenssoftware relevante Unterscheidung ist dabei die zwischen technischen und Anwendungsereignissen. Anwendungsereignisse sind Ereignisse, die fachliche Bedeutung haben, wie beispielsweise 'ein Kundenauftrag geht ein', 'eine Zahlung wurde getätigt' oder 'Ein Mitarbeiter betritt das Gebäude'. Ein technisches Ereignis hingegen ist ein Ereignis, dass ausschließlich systemintern relevant ist und zu Kommunikation und Koordination von Systemkomponenten genutzt wird. Beispiele wären 'Ein Datenbankeintrag wurde erstellt' oder 'Eine Datei wurde hochgeladen'. Es ist üblich, dass Anwendungsereignisse einen höheren semantischen Stellenwert einnehmen, also dass in der Verarbeitung eines Anwendungsereignisses viele technische Ereignisse ausgelöst werden. \footcite[Vgl. ][S. 245f]{CLOUD2021}
@@ -56,8 +50,22 @@ Die 'Mediator-Topology' sieht eine zentrale Event-Queue vor, in die Ereignisse e
 \footnotetext{\cite[][]{wickramarachchi_2017_event}}
 Die 'Broker-Topology' sieht keine zentrale Event-Queue vor. Hier werden die Ereignisse stattdessen zentral an alle relevanten Channels verteilt, ohne sie weiterzuverarbeiten. Daraus folgt, dass wenn Ereignisse mehrschrittig abgearbeitet werden müssen eine Lösung mit Callback-Ereignissen gefunden werden muss. In Abbildung \ref{brokertop} ist dies an Doppelpfeilen zu erkennen, die zwischen manchen Subscribern und dem Broker laufen. \footcite[Vgl. ][]{wickramarachchi_2017_event}
 
-\subsection{RESTful \ac{API}}
-\missing{add subsubsections}
+\subsection{RESTful API}
+\subsubsection*{API}
+Martin Reddy definiert in der Einleitung seines Buch "API Design for C++" den Begriff des \ac{API} als Abstraktion eines Problems und die zugehörige Spezifikation mit der ein Anwender mit einem Software-Komponenten interagieren sollte, welcher eine Lösung für dieses Problem implementiert. \footcite[Vgl. ][S. 1]{reddy2011api} Eine API ist also vordergründig eine Spezifikation, welche es ermöglicht mit Software zu interagieren. Das bedeutet sowohl, dass eine Maschine zu Maschine möglich wird, wenn die Formalisierung der Spezifikation stark genug ist, als auch, dass man nach dieser Definition eine gewöhnliche Anwendungssoftware als API, die für eine Anwender-Maschine gedacht ist, begreifen kann. Im Fachjargon der Softwareentwicklung verwendet man den Begriff der \ac{API} jedoch vordergründig, um ersteren Fall zu beschreiben. Eine praktischere Definition des Begriffes ist es also, die API als Verbindungsstück, also als Schnittstelle, einer Software-Komponente zu verstehen. \\
+Eine für den Zweck der Arbeit besonders relevante Klasse von \ac{API}s sind sogenannte Web-\ac{API}s. Web-\ac{API}s sind Software-Schnittstellen, die sich das \ac{WWW} zur Nutze machen und über Protokolle des Internets angesprochen werden können.\citepls Für solche \ac{API}s haben sich über die Entwicklung des Internets eine Reihe verschiedener Standards und Architekturmuster enwtickelt, das heute eingängigste ist jedoch wahrscheinlich der REST-Standard. \citepls
+\subsubsection*{REST}
+Den Begriff \ac{REST} prägte erstmals Roy Fielding in seiner Dissertation im Jahr 2000. Er beschreibt damit ein Architekturprinzip für verteilte Systeme, das auf dem \ac{WWW} aufbaut. \footcite[Vgl. ][S. 76]{REST2000} \ac{API}s, die dem REST Standard folgen, sogenannte \ac{REST}ful \ac{API}s, sind mittlerweile ein häufig anzutreffendes Design Muster in der Softwarearchitektur. Dabei beschreibt Fielding mit \ac{REST} an sich eigentlich kein solches Muster, sondern legt viel mehr eine Reihe von Anforderungen fest, die erfüllt sein müssen, damit eine \ac{API} \ac{REST}ful genannt werden kann. \footcite[Vgl. ][S. XV]{richardson2007web} Die sechs Anforderungen, die Fielding definiert, sollen im folgenden kurz beschrieben werden:
+\begin{itemize}
+  \item 
+  \textbf{Einheitliche Schnittstelle:} Die \ac{API} muss eine einheitliche Schnittstelle für alle Clients bereitstellen. Das bedeutet, dass alle Clients die gleichen Methoden verwenden, um mit der \ac{API} zu interagieren. \footcite[Vgl. ][S. 77]{REST2000} 
+  \item
+  \textbf{}
+\end{itemize}
+
+
+
+
 \subsection{Technologie im Anwendungsbeispiel}
 
 \subsubsection*{Cloud Events}
