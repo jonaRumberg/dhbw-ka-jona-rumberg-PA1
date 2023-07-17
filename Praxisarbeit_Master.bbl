@@ -163,6 +163,39 @@
       \field{title}{CLOUD NATIVE ARCHITECTURE AND DESIGN : a handbook for modern day architecture and design with... enterprise-grade examples.}
       \field{year}{2021}
     \endentry
+    \entry{heinrich2007wirtschaftsinformatik}{book}{}
+      \name{author}{3}{}{%
+        {{hash=b853afccae189526b3024080ca9fd317}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={LJ},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f74c562815b3ca2cf24c74537d4585f9}{%
+           family={Heinzl},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3be4f9092a1d3c7cdd2351bec3487bc}{%
+           family={Roithmayr},
+           familyi={R\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{438385b53095e33ae51c9da3c62239ae}
+      \strng{fullhash}{b94bc18677b737965a0becc5f4b3ec18}
+      \strng{bibnamehash}{b94bc18677b737965a0becc5f4b3ec18}
+      \strng{authorbibnamehash}{b94bc18677b737965a0becc5f4b3ec18}
+      \strng{authornamehash}{438385b53095e33ae51c9da3c62239ae}
+      \strng{authorfullhash}{b94bc18677b737965a0becc5f4b3ec18}
+      \field{labelalpha}{HHR07}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{München ua: Oldenbourg Verlag}
+      \field{title}{Wirtschaftsinformatik-Einführung und Grundlegung (3. Ausg.)}
+      \field{year}{2007}
+    \endentry
     \entry{reddy2011api}{book}{}
       \name{author}{1}{}{%
         {{hash=83deab8e3db4ef951ecbcc78e41fafbf}{%

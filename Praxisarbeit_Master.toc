@@ -27,6 +27,6 @@
 \contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{17}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{17}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{17}{subsection.5.3}%
-\contentsline {section}{Quellenverzeichnis}{X}{section*.43}%
-\contentsline {section}{Anhang}{XI}{section*.44}%
+\contentsline {section}{Quellenverzeichnis}{X}{section*.44}%
+\contentsline {section}{Anhang}{XI}{section*.45}%
 \xpginauxfilefalse 

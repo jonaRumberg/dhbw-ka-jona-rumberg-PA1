@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  17 JUL 2023 10:42
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  17 JUL 2023 13:20
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -259,11 +259,11 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            synonyms	 on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 16
@@ -1693,11 +1693,11 @@ Package biblatex Info: ... file 'german.lbx' found.
 bx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            synonyms	 on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 580
@@ -2341,9 +2341,23 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu)
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [13]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [14]
 (./text/chapter3.tex
@@ -2353,7 +2367,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/eventingstructure.jpg, id=551, 614.295pt x 593.21625pt>
+<images/eventingstructure.jpg, id=560, 614.295pt x 593.21625pt>
 File: images/eventingstructure.jpg Graphic file (type jpg)
 <use images/eventingstructure.jpg>
 Package luatex.def Info: images/eventingstructure.jpg  used on input line 7.
@@ -2389,6 +2403,8 @@ uage deu [17] (./text/template/references.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
@@ -2587,22 +2603,22 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 18160D32EAF9BDD9B1765F8E9FBCDA3D;5139.
+(rerunfilecheck)             Checksum: 3DD3C172B900389A14E428285706BE53;5139.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 34682 strings out of 478031
+ 34692 strings out of 478031
  125038,1977958 words of node,token memory allocated
- 16154 words of node memory still in use:
-   339 hlist, 37 vlist, 1 rule, 12 disc, 24 local_par, 472 glue, 15 kern, 24 pen
-alty, 73 glyph, 1356 attribute, 69 glue_spec, 1356 attribute_list, 26 write, 24 
-save_pos, 804 pdf_literal, 5 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:4,2:1427,3:856,4:52,5:1000,6:72,7:6975,8:97,9:565,10:13,11:822
+ 16166 words of node memory still in use:
+   339 hlist, 37 vlist, 1 rule, 12 disc, 24 local_par, 474 glue, 15 kern, 24 pen
+alty, 73 glyph, 1357 attribute, 69 glue_spec, 1357 attribute_list, 26 write, 24 
+save_pos, 804 pdf_literal, 4 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:5,2:1519,3:867,4:52,5:1000,6:73,7:6973,8:97,9:610,10:15,11:822
 
- 54132 multiletter control sequences out of 65536+600000
+ 54138 multiletter control sequences out of 65536+600000
  63 fonts using 14528391 bytes
  104i,12n,112p,2139b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2612,9 +2628,9 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@EDA2006'
 <C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Ca
 rlito-Bold.ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/truetype/go
 ogle/carlito/Carlito-Regular.ttf>
-Output written on Praxisarbeit_Master.pdf (28 pages, 843859 bytes).
+Output written on Praxisarbeit_Master.pdf (28 pages, 846062 bytes).
 
-PDF statistics: 610 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 131072)
+PDF statistics: 617 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 131072)
  248 words of extra memory for PDF output out of 10000 (max. 100000000)
 
