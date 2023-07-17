@@ -2379,7 +2379,8 @@
     <bcf:citekey order="17" intorder="1">reddy2011api</bcf:citekey>
     <bcf:citekey order="18" intorder="1">REST2000</bcf:citekey>
     <bcf:citekey order="19" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">REST2000</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">redhat_2020_was</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">richardson2007web</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

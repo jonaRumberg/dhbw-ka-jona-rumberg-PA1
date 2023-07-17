@@ -188,6 +188,40 @@
       \field{title}{API Design for C++}
       \field{year}{2011}
     \endentry
+    \entry{redhat_2020_was}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a82007c47b25723539a00ff94e8b3d27}{%
+           family={{Red Hat}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {www.redhat.com}%
+      }
+      \strng{namehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{fullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{bibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorbibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authornamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorfullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \field{labelalpha}{Re20}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{Was ist eine REST-API?}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/api/what-is-a-rest-api
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/api/what-is-a-rest-api
+      \endverb
+    \endentry
     \entry{richardson2007web}{book}{}
       \name{author}{2}{}{%
         {{hash=1d85fbf65464db3ffcf0c108192462b8}{%
