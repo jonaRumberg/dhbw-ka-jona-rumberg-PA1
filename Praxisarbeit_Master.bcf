@@ -2379,12 +2379,15 @@
     <bcf:citekey order="17" intorder="1">wickramarachchi_2017_event</bcf:citekey>
     <bcf:citekey order="18" intorder="1">wickramarachchi_2017_event</bcf:citekey>
     <bcf:citekey order="19" intorder="1">reddy2011api</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">REST2000</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">redhat_2020_was</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">richardson2007web</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">REST2000</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">richardson2007web</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">redhat_2020_was</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">richardson2007web</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">cloudevent</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">cloudeventprimer</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

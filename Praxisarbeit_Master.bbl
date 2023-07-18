@@ -54,7 +54,6 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9783642024399}
       \field{series}{Xpert.pressSpringerLink}
       \field{title}{Event-Driven Architecture : Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse}
       \field{year}{2010}
@@ -82,6 +81,70 @@
       \field{title}{Event-Driven Applications: Costs, Benefits and Design Approaches}
       \field{year}{2006}
     \endentry
+    \entry{cloudevent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=39181be3195fd4d6495565bdfbea546d}{%
+           family={{Cloud Events}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{fullhash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{bibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorbibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authornamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorfullhash}{39181be3195fd4d6495565bdfbea546d}
+      \field{extraname}{1}
+      \field{labelalpha}{Cl23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cloud Events}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cloudevents.io/
+      \endverb
+      \verb{url}
+      \verb https://cloudevents.io/
+      \endverb
+    \endentry
+    \entry{cloudeventprimer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=39181be3195fd4d6495565bdfbea546d}{%
+           family={{Cloud Events}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{fullhash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{bibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorbibnamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authornamehash}{39181be3195fd4d6495565bdfbea546d}
+      \strng{authorfullhash}{39181be3195fd4d6495565bdfbea546d}
+      \field{extraname}{2}
+      \field{labelalpha}{Cl23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CloudEvents Primer - Version 1.0.3}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md
+      \endverb
+      \verb{url}
+      \verb https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md
+      \endverb
+    \endentry
     \entry{cloudeventgit}{online}{}
       \name{author}{1}{}{%
         {{hash=39181be3195fd4d6495565bdfbea546d}{%
@@ -94,16 +157,18 @@
       \strng{authorbibnamehash}{39181be3195fd4d6495565bdfbea546d}
       \strng{authornamehash}{39181be3195fd4d6495565bdfbea546d}
       \strng{authorfullhash}{39181be3195fd4d6495565bdfbea546d}
-      \field{labelalpha}{CloJ}
+      \field{extraname}{3}
+      \field{labelalpha}{Cl23}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extraalpha}{3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JSON Event Format for CloudEvents - Version 1.0.2}
       \field{urlday}{27}
       \field{urlmonth}{6}
       \field{urlyear}{2023}
-      \field{year}{o.J.}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/formats/json-format.md#1-introduction
