@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Praxisarbeit_Master.blg'
-[136] biber-MSWIN64:340> INFO - === 
-[193] Biber.pm:419> INFO - Reading 'Praxisarbeit_Master.bcf'
-[313] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[330] Biber.pm:4419> INFO - Processing section 0
-[345] Biber.pm:4610> INFO - Looking for bibtex file 'text/bibliography.bib' for section 0
-[410] bibtex.pm:1713> INFO - LaTeX decoding ...
-[431] bibtex.pm:1519> INFO - Found BibTeX data source 'text/bibliography.bib'
-[532] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[533] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[533] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[533] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[549] bbl.pm:660> INFO - Writing 'Praxisarbeit_Master.bbl' with encoding 'UTF-8'
-[555] bbl.pm:763> INFO - Output to Praxisarbeit_Master.bbl
-[558] Biber.pm:131> WARN - legacy year field 'o.J.' in entry 'sapse_was' is not an integer - this will probably not sort properly.
-[558] Biber.pm:131> WARN - legacy year field 'o.J.' in entry 'cloudeventgit' is not an integer - this will probably not sort properly.
-[558] Biber.pm:133> INFO - WARNINGS: 2
+[146] biber-MSWIN64:340> INFO - === 
+[192] Biber.pm:419> INFO - Reading 'Praxisarbeit_Master.bcf'
+[297] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
+[313] Biber.pm:4419> INFO - Processing section 0
+[327] Biber.pm:4610> INFO - Looking for bibtex file 'text/bibliography.bib' for section 0
+[393] bibtex.pm:1713> INFO - LaTeX decoding ...
+[416] bibtex.pm:1519> INFO - Found BibTeX data source 'text/bibliography.bib'
+[515] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[515] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[516] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[516] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[531] bbl.pm:660> INFO - Writing 'Praxisarbeit_Master.bbl' with encoding 'UTF-8'
+[536] bbl.pm:763> INFO - Output to Praxisarbeit_Master.bbl
+[537] Biber.pm:131> WARN - legacy year field 'o.J.' in entry 'sapse_was' is not an integer - this will probably not sort properly.
+[537] Biber.pm:131> WARN - legacy year field 'o.J.' in entry 'cloudeventgit' is not an integer - this will probably not sort properly.
+[537] Biber.pm:133> INFO - WARNINGS: 2
