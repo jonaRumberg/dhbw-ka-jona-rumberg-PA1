@@ -7,6 +7,7 @@
 
 \documentclass[a4paper,12pt]{article}
 \usepackage{fontspec}
+\usepackage{wrapfig}
 \usepackage{polyglossia}
 \usepackage{csquotes}
 \setdefaultlanguage[spelling=new, babelshorthands=true]{german}
@@ -30,12 +31,32 @@
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
+% Ermöglicht Code in LaTeX
+\usepackage{listings}
+\lstdefinelanguage{CDS}
+{morekeywords={event, parameter},
+sensitive=false,
+morecomment=[l]{//},
+morestring=[b]",
+}
+\lstset{
+    language=CDS,
+    basicstyle=\ttfamily,
+    breaklines=true,
+    columns=fullflexible,
+    frame=single,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
 % Definiert die Farben für Tabellen im DHBW-Style
 \usepackage[table]{xcolor}
 \definecolor{tableHeading}{gray}{0.672}
 \definecolor{tableOdd}{gray}{0.945}
 \definecolor{tableEven}{gray}{0.859}
 \arrayrulecolor{white}
+
+% Formatiert merkwürdige Wötertrennung
+\usepackage{microtype}
 
 % Schriftart Carlito. Sie ist fast identisch mit Calibri.
 % Calibri ist auf Linux und MacOS nicht verfügbar. 
@@ -62,6 +83,12 @@
 \usepackage{setspace}
 \setstretch{1.5}
 
+% Das Paket todonotes kann genutzt werden um Todos im text zu markieren
+\usepackage{todonotes}
+\newcommand{\missing}[1]{\todo[color=red!40, noline]{#1}}
+\newcommand{\clarify}[1]{\todo[color=yellow]{#1}}
+\newcommand{\citepls}{\todo[color=green]{Cite!}}
+
 % Literaturverzeichnis
 \usepackage[natbib=true, backend=biber, style=LNI]{biblatex}
 \DeclareBibliographyAlias{interview}{misc}
@@ -70,12 +97,6 @@
 % Das Paket hyperref muss als letztes Paket geladen werden. Das Paket setzt Links im PDF-Dokument.
 \usepackage[hidelinks, unicode]{hyperref}
 \hypersetup{pdftitle = {\thesisTitle}, pdfauthor = {\name}}
-
-% Das Paket todonotes kann genutzt werden um Todos im text zu markieren
-\usepackage{todonotes}
-\newcommand{\missing}[1]{\todo[color=red!40, noline]{#1}}
-\newcommand{\clarify}[1]{\todo[color=yellow]{#1}}
-\newcommand{\citepls}{\todo[color=green]{Cite!}}
 
 
 % Normale Schriftart für URLs

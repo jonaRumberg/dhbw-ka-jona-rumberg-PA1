@@ -8,5 +8,9 @@
 \setforeignlanguage {german}
 \contentsline {figure}{\numberline {4}{\ignorespaces Broker-Topology}}{8}{figure.4}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {5}{\ignorespaces Eventing in SAP}}{16}{figure.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces BTP Event-Mesh}}{16}{figure.5}%
+\setforeignlanguage {german}
+\contentsline {figure}{\numberline {6}{\ignorespaces Message-Channel Konfiguration}}{17}{figure.6}%
+\setforeignlanguage {german}
+\contentsline {figure}{\numberline {7}{\ignorespaces Eventing in SAP S/4}}{19}{figure.7}%
 \xpginauxfilefalse 
