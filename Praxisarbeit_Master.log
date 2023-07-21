@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  21 JUL 2023 10:42
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  21 JUL 2023 13:34
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -267,11 +267,11 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1901.tex on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 16
@@ -1781,11 +1781,11 @@ Package biblatex Info: ... file 'german.lbx' found.
 bx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1996.tex on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 580
@@ -2490,15 +2490,21 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [23]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [24]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2730,14 +2736,14 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: 2C6A960C44DEEAFF25DF7F3396526CE9;5408.
+(rerunfilecheck)             Checksum: 80BBC3BE6BFCD6A8B5BB2A3F48C4F151;5408.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 38338 strings out of 478031
+ 38341 strings out of 478031
  156306,1977958 words of node,token memory allocated
  7214 words of node memory still in use:
    144 hlist, 16 vlist, 1 rule, 5 disc, 11 local_par, 204 glue, 8 kern, 11 penal
@@ -2761,9 +2767,9 @@ cal/Programs/MiKTeX/fonts/truetype/google/carlito/Carlito-Bold.ttf><C:/Users/I56
 .ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb>
-Output written on Praxisarbeit_Master.pdf (38 pages, 941519 bytes).
+Output written on Praxisarbeit_Master.pdf (38 pages, 942739 bytes).
 
-PDF statistics: 745 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 131072)
+PDF statistics: 748 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 131072)
  248 words of extra memory for PDF output out of 10000 (max. 100000000)
 
