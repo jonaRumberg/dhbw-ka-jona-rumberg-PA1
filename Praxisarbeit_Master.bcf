@@ -2388,6 +2388,11 @@
     <bcf:citekey order="26" intorder="1">cloudeventprimer</bcf:citekey>
     <bcf:citekey order="27" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
     <bcf:citekey order="28" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">solace2021</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">solace2021</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">aws2023</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">azure2023</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">gcp2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

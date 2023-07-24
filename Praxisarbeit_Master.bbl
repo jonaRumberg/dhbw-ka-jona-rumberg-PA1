@@ -19,6 +19,66 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{aws2023}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ac68bbf921d953d1cfab916cb6120864}{%
+           family={{aws}},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac68bbf921d953d1cfab916cb6120864}
+      \strng{fullhash}{ac68bbf921d953d1cfab916cb6120864}
+      \strng{bibnamehash}{ac68bbf921d953d1cfab916cb6120864}
+      \strng{authorbibnamehash}{ac68bbf921d953d1cfab916cb6120864}
+      \strng{authornamehash}{ac68bbf921d953d1cfab916cb6120864}
+      \strng{authorfullhash}{ac68bbf921d953d1cfab916cb6120864}
+      \field{labelalpha}{aw23}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist ereignisgesteuerte Architektur?}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/de/event-driven-architecture/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/de/event-driven-architecture/
+      \endverb
+    \endentry
+    \entry{azure2023}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3a580f142203677f1f0bc30898f63f53}{%
+           family={{Azure}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a580f142203677f1f0bc30898f63f53}
+      \strng{fullhash}{3a580f142203677f1f0bc30898f63f53}
+      \strng{bibnamehash}{3a580f142203677f1f0bc30898f63f53}
+      \strng{authorbibnamehash}{3a580f142203677f1f0bc30898f63f53}
+      \strng{authornamehash}{3a580f142203677f1f0bc30898f63f53}
+      \strng{authorfullhash}{3a580f142203677f1f0bc30898f63f53}
+      \field{labelalpha}{Az21}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Event Grid}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/de-de/products/event-grid
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/de-de/products/event-grid
+      \endverb
+    \endentry
     \entry{EDA2010}{book}{}
       \name{author}{1}{}{%
         {{hash=80ee91ab689385203c6231c6a66f6b96}{%
@@ -228,6 +288,36 @@
       \field{title}{CLOUD NATIVE ARCHITECTURE AND DESIGN : a handbook for modern day architecture and design with... enterprise-grade examples.}
       \field{year}{2021}
     \endentry
+    \entry{gcp2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3dd97002c3e77b56e4291ec57669c5a2}{%
+           family={{google cloud}},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \strng{fullhash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \strng{bibnamehash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \strng{authorbibnamehash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \strng{authornamehash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \strng{authorfullhash}{3dd97002c3e77b56e4291ec57669c5a2}
+      \field{labelalpha}{go21}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eventarc: A unified eventing experience in Google Cloud}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cloud.google.com/blog/topics/developers-practitioners/eventarc-unified-eventing-experience-google-cloud?hl=en
+      \endverb
+      \verb{url}
+      \verb https://cloud.google.com/blog/topics/developers-practitioners/eventarc-unified-eventing-experience-google-cloud?hl=en
+      \endverb
+    \endentry
     \entry{heinrich2007wirtschaftsinformatik}{book}{}
       \name{author}{3}{}{%
         {{hash=b853afccae189526b3024080ca9fd317}{%
@@ -428,6 +518,36 @@
       \field{title}{The growing role of events in enterprise applications}
       \field{volume}{7}
       \field{year}{2003}
+    \endentry
+    \entry{solace2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=297aba409eb49f9204a87da45334f7ec}{%
+           family={{solace}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{297aba409eb49f9204a87da45334f7ec}
+      \strng{fullhash}{297aba409eb49f9204a87da45334f7ec}
+      \strng{bibnamehash}{297aba409eb49f9204a87da45334f7ec}
+      \strng{authorbibnamehash}{297aba409eb49f9204a87da45334f7ec}
+      \strng{authornamehash}{297aba409eb49f9204a87da45334f7ec}
+      \strng{authorfullhash}{297aba409eb49f9204a87da45334f7ec}
+      \field{labelalpha}{so21}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Event-Driven Architecture Statistics (2021)}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://solace.com/event-driven-architecture-statistics/
+      \endverb
+      \verb{url}
+      \verb https://solace.com/event-driven-architecture-statistics/
+      \endverb
     \endentry
     \entry{wickramarachchi_2017_event}{online}{}
       \name{author}{1}{}{%
