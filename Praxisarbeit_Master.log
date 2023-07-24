@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  24 JUL 2023 10:21
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.22)  24 JUL 2023 12:32
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/I569398/Documents/Personal/DHBW/Hausarbeiten/dhbw-ka-jona-rumberg-PA
@@ -267,12 +267,12 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            synonyms	
 (polyglossia)            hyphenation	
+(polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            lefthyphenmin	2 on input line 16
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 16
 Package polyglossia Info: Option: German, spelling=new.
@@ -1781,12 +1781,12 @@ Package biblatex Info: ... file 'german.lbx' found.
 bx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            synonyms	
 (polyglossia)            hyphenation	
+(polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            lefthyphenmin	2 on input line 580
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 580
 )
@@ -1879,6 +1879,8 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [2]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu (./Praxisarbeit_Master.tdo
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -2148,6 +2150,10 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [2]
@@ -2174,7 +2180,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Graphik EDA.png, id=371, 623.83063pt x 287.57437pt>
+<images/Graphik EDA.png, id=373, 623.83063pt x 287.57437pt>
 File: images/Graphik EDA.png Graphic file (type png)
 <use images/Graphik EDA.png>
 Package luatex.def Info: images/Graphik EDA.png  used on input line 12.
@@ -2201,7 +2207,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Cloud Events Example.png, id=402, 873.76437pt x 406.51875pt>
+<images/Cloud Events Example.png, id=404, 873.76437pt x 406.51875pt>
 File: images/Cloud Events Example.png Graphic file (type png)
 <use images/Cloud Events Example.png>
 Package luatex.def Info: images/Cloud Events Example.png  used on input line 27
@@ -2217,7 +2223,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu [6<./images/Cloud Events Example.png>]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Mediator Topology.png, id=417, 417.56pt x 262.48062pt>
+<images/Mediator Topology.png, id=419, 417.56pt x 262.48062pt>
 File: images/Mediator Topology.png Graphic file (type png)
 <use images/Mediator Topology.png>
 Package luatex.def Info: images/Mediator Topology.png  used on input line 37.
@@ -2240,7 +2246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/Broker Topology.png, id=423, 465.74pt x 239.39438pt>
+<images/Broker Topology.png, id=425, 465.74pt x 239.39438pt>
 File: images/Broker Topology.png Graphic file (type png)
 <use images/Broker Topology.png>
 Package luatex.def Info: images/Broker Topology.png  used on input line 46.
@@ -2360,7 +2366,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/event processing.jpg, id=558, 627.34375pt x 302.12875pt>
+<images/event processing.jpg, id=560, 627.34375pt x 302.12875pt>
 File: images/event processing.jpg Graphic file (type jpg)
 <use images/event processing.jpg>
 Package luatex.def Info: images/event processing.jpg  used on input line 11.
@@ -2371,7 +2377,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 53 (nil) defines no feature for script latn with lang
 uage deu
-<images/messagechannelconfig.png, id=562, 168.63pt x 179.16937pt>
+<images/messagechannelconfig.png, id=564, 168.63pt x 179.16937pt>
 File: images/messagechannelconfig.png Graphic file (type png)
 <use images/messagechannelconfig.png>
 Package luatex.def Info: images/messagechannelconfig.png  used on input line 19
@@ -2403,7 +2409,7 @@ Package acronym Info: Label `acro:ADT' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/eventingstructure.jpg, id=584, 604.2575pt x 584.1825pt>
+<images/eventingstructure.jpg, id=586, 604.2575pt x 584.1825pt>
 File: images/eventingstructure.jpg Graphic file (type jpg)
 <use images/eventingstructure.jpg>
 Package luatex.def Info: images/eventingstructure.jpg  used on input line 34.
@@ -2539,7 +2545,7 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-<images/solace study.png, id=685, 513.41812pt x 400.49625pt>
+<images/solace study.png, id=687, 513.41812pt x 400.49625pt>
 File: images/solace study.png Graphic file (type png)
 <use images/solace study.png>
 Package luatex.def Info: images/solace study.png  used on input line 34.
@@ -2555,10 +2561,14 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [28]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [28]
-(./text/template/references.tex
+uage deu [29]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+[30] (./text/template/references.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
@@ -2783,22 +2793,22 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
 Package rerunfilecheck Info: File `Praxisarbeit_Master.out' has not changed.
-(rerunfilecheck)             Checksum: DA379B240DE150FCE073D2A0DAD4EE74;5408.
+(rerunfilecheck)             Checksum: 450B8EEE2CEB1338DF8D64D5CB8C90B0;5408.
 Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 
 \openout1 = Praxisarbeit_Master.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 38396 strings out of 478031
- 156302,1977958 words of node,token memory allocated
- 10146 words of node memory still in use:
-   205 hlist, 22 vlist, 1 rule, 9 disc, 15 local_par, 288 glue, 13 kern, 19 pena
-lty, 12 margin_kern, 73 glyph, 799 attribute, 69 glue_spec, 799 attribute_list, 
-16 write, 14 save_pos, 469 pdf_literal, 8 pdf_action, 14 pdf_colorstack nodes
-   avail lists: 1:5,2:2015,3:790,4:412,5:3996,6:95,7:7329,8:117,9:5658,10:31,11:
-822
- 57724 multiletter control sequences out of 65536+600000
+ 38405 strings out of 478031
+ 156306,1977958 words of node,token memory allocated
+ 11323 words of node memory still in use:
+   231 hlist, 25 vlist, 1 rule, 11 disc, 17 local_par, 324 glue, 15 kern, 23 pen
+alty, 15 margin_kern, 88 glyph, 883 attribute, 69 glue_spec, 883 attribute_list,
+ 17 write, 15 save_pos, 516 pdf_literal, 8 pdf_action, 16 pdf_colorstack nodes
+   avail lists: 1:5,2:2015,3:790,4:412,5:3996,6:93,7:7329,8:117,9:5658,10:31,11:
+884
+ 57730 multiletter control sequences out of 65536+600000
  66 fonts using 14906975 bytes
  104i,12n,159p,2123b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2814,9 +2824,9 @@ cal/Programs/MiKTeX/fonts/truetype/google/carlito/Carlito-Bold.ttf><C:/Users/I56
 .ttf><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb><C:/Users/I569398/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb>
-Output written on Praxisarbeit_Master.pdf (40 pages, 1114648 bytes).
+Output written on Praxisarbeit_Master.pdf (42 pages, 1124517 bytes).
 
-PDF statistics: 794 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 131072)
+PDF statistics: 822 PDF objects out of 1000 (max. 8388607)
+ 183 named destinations out of 1000 (max. 131072)
  248 words of extra memory for PDF output out of 10000 (max. 100000000)
 
