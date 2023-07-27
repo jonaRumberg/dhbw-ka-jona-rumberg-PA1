@@ -44,8 +44,8 @@
 \listoffigures
 \newpage
 
-\listoftables
-\newpage
+% \listoftables
+% \newpage
 
 \clearpage
 \setcounter{pageNumber}{\value{page}}
@@ -57,13 +57,10 @@
 % Hier sind die Kapitel.
 % Bei Bedarf kann man Kapitel entfernen oder hinzufügen
 \input{text/chapter1}
-\newpage
 \input{text/chapter2}
 \newpage
 \input{text/chapter3}
-\newpage
 \input{text/chapter4}
-\newpage
 \input{text/chapter5}
 
 
@@ -80,6 +77,9 @@
 \input{text/template/references}
 \newpage
 
-\input{text/appendix}
+\input{text/appendix.tex}
+\newpage
+
+\input{text/appendix/sourcecode.tex}
  
 \end{document}

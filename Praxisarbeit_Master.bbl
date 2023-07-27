@@ -118,13 +118,17 @@
       \field{title}{Event-Driven Architecture : Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse}
       \field{year}{2010}
     \endentry
-    \entry{EDA2006}{inproceedings}{}
+    \entry{EDA2006}{misc}{}
       \name{author}{1}{}{%
         {{hash=bcdc8fdc509eb2db21bdc0b8c71f617f}{%
            family={Chandy},
            familyi={C\bibinitperiod},
            given={Mani},
            giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Gartner Application Integration}%
+        {Web Services Summit}%
       }
       \strng{namehash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
       \strng{fullhash}{bcdc8fdc509eb2db21bdc0b8c71f617f}
@@ -137,7 +141,6 @@
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{Gartner Application Integration and Web Services Summit}
       \field{title}{Event-Driven Applications: Costs, Benefits and Design Approaches}
       \field{year}{2006}
     \endentry

@@ -1,0 +1,404 @@
+\section*{ CL\_ZRUTEST } 
+
+\begin{Verbatim}[breaklines=true]
+CLASS cl_zrutest DEFINITION
+  PUBLIC
+  INHERITING FROM cl_zrutest_base
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    METHODS if_zrutest_handler~handle_rutravel_cancelled_v1
+        REDEFINITION .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+CLASS cl_zrutest IMPLEMENTATION.
+  METHOD if_zrutest_handler~handle_rutravel_cancelled_v1.
+    "create a notification to push to fiori launchpad
+    DATA lt_notif TYPE /iwngw/if_notif_provider=>ty_t_notification.
+    DATA ls_notif TYPE /iwngw/if_notif_provider=>ty_s_notification.
+    DATA lv_provd TYPE /iwngw/if_notif_provider=>ty_s_provider-id.
+    DATA lv_system_uuid TYPE REF TO if_system_uuid.
+    DATA lt_recipient TYPE /iwngw/if_notif_provider=>ty_t_notification_recipient.
+    DATA ls_recipient LIKE LINE OF lt_recipient.
+    DATA lv_api_return TYPE string.
+    DATA lrx_api       TYPE REF TO /iwngw/cx_notification_api.
+
+    ls_recipient-id = 'RUMBERGJ'.
+    APPEND ls_recipient TO lt_recipient.
+
+    TRY.
+        ls_notif-id = lv_system_uuid->create_uuid_x16(  ).
+      CATCH cx_uuid_error.
+        "handle exception
+    ENDTRY.
+
+    ls_notif-type_key = 'demo'.
+    ls_notif-type_version = '1.0.0'.
+    ls_notif-priority = 'MEDIUM'.
+    ls_notif-recipients = lt_recipient.
+
+    APPEND ls_notif TO lt_notif.
+
+    lv_provd = 'ZRU_NOTIF_EVT_DEMO'.
+
+    TRY.
+        /iwngw/cl_notification_api=>create_notifications(
+          iv_provider_id  = lv_provd
+          it_notification = lt_notif
+
+        ).
+      CATCH /iwngw/cx_notification_api INTO lrx_api.
+        "handle exception
+        lv_api_return = lrx_api->get_text( ).
+    ENDTRY.
+*    CATCH /iwngw/cx_notification_api.
+
+
+    " Event Type: zru.rutravel.Cancelled.v1
+    DATA ls_business_data TYPE STRUCTURE FOR HIERARCHY rutravel_Cancelled_v1.
+
+    DATA wa TYPE zru_evtlog.
+
+    ls_business_data = io_event->get_business_data( ).
+
+    wa-payload = ls_business_data-Description.
+    wa-recorddate = sy-datlo.
+    wa-recordtime = sy-timlo.
+    wa-notif_flag = lv_api_return.
+
+    INSERT INTO zru_evtlog VALUES wa.
+    COMMIT WORK.
+
+  ENDMETHOD.
+ENDCLASS.
+\end{Verbatim}
+
+\section*{ CL\_ZRUTEST\_BASE } 
+
+\begin{Verbatim}[breaklines=true]
+    class CL_ZRUTEST_BASE definition
+    public
+    abstract
+    create public .
+  
+  public section.
+  
+    interfaces /IWXBE/IF_CONSUMER .
+    interfaces IF_ZRUTEST_HANDLER
+        all methods abstract .
+  protected section.
+  private section.
+  
+    constants:
+      GENERATED_AT TYPE STRING VALUE `20230710140328` .
+    constants:
+      GENERATION_VERSION TYPE I VALUE 1 .
+  ENDCLASS.
+  
+  
+  
+  CLASS CL_ZRUTEST_BASE IMPLEMENTATION.
+  
+  
+  METHOD /IWXBE/IF_CONSUMER~HANDLE_EVENT.
+  
+    " This is a generated class, which might be overwritten in the future.
+    " Go to CL_ZRUTEST to add custom code.
+  
+    CASE io_event->get_cloud_event_type( ).
+      WHEN 'zru.rutravel.Cancelled.v1'.
+        me->IF_ZRUTEST_HANDLER~handle_rutravel_cancelled_v1( NEW LCL_RUTRAVEL_CANCELLED_V1( io_event ) ).
+      WHEN OTHERS.
+        RAISE EXCEPTION TYPE /iwxbe/cx_exception
+          EXPORTING
+            textid = /iwxbe/cx_exception=>not_supported.
+    ENDCASE.
+  
+  ENDMETHOD.
+  ENDCLASS.
+\end{Verbatim}
+
+\section*{ CL\_ZRUTEST\_BASE local types} 
+
+\begin{Verbatim}[breaklines=true]
+    CLASS LCL_RUTRAVEL_CANCELLED_V1 DEFINITION FINAL.
+    PUBLIC SECTION.
+      INTERFACES:
+        IF_RUTRAVEL_CANCELLED_V1.
+  
+      METHODS:
+        CONSTRUCTOR
+          IMPORTING
+            IO_EVENT TYPE REF TO /IWXBE/IF_CONSUMER_EVENT.
+    PRIVATE SECTION.
+      DATA:
+        MO_EVENT TYPE REF TO /IWXBE/IF_CONSUMER_EVENT.
+  
+  ENDCLASS.
+  
+  CLASS LCL_RUTRAVEL_CANCELLED_V1 IMPLEMENTATION.
+    METHOD CONSTRUCTOR.
+        mo_event = io_event.
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_ARRIVAL_TIMESTAMP.
+        rv_timestamp = mo_event->get_arrival_timestamp( ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_BUSINESS_DATA.
+        mo_event->get_business_data( IMPORTING es_business_data = es_business_data ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_CLOUD_EVENT_ID.
+        rv_id = mo_event->get_cloud_event_id( ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_CLOUD_EVENT_SOURCE.
+        rv_source = mo_event->get_cloud_event_source( ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_CLOUD_EVENT_TIMESTAMP.
+        rv_timestamp = mo_event->get_cloud_event_timestamp( ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_CLOUD_EVENT_TYPE.
+        rv_type = mo_event->get_cloud_event_type( ).
+    ENDMETHOD.
+    METHOD /IWXBE/IF_CONSUMER_EVENT~GET_CUSTOM_EXT_ATTR_VALUE.
+          mo_event->get_custom_ext_attr_value(
+            EXPORTING
+              iv_name = iv_name
+            IMPORTING
+              ev_custom_extension_attr = ev_custom_extension_attr ).
+    ENDMETHOD.
+    METHOD IF_RUTRAVEL_CANCELLED_V1~GET_BUSINESS_DATA.
+        mo_event->get_business_data( IMPORTING es_business_data = rs_business_data ).
+    ENDMETHOD.
+\end{Verbatim}
+
+\section*{ ZRU\_R\_TRAVELTP} 
+
+\begin{Verbatim}[breaklines=true]
+    managed with additional save implementation in class ZRU_BP_TravelTP unique;
+    strict ( 2 );
+    with draft;
+    
+    define behavior for ZRU_R_TRAVELTP alias Travel
+    persistent table zru_atrav
+    draft table ZRU_DTRAV
+    //with unmanaged save
+    etag master LocalLastChangedAt
+    lock master total etag LastChangedAt
+    authorization master( global )
+    early numbering
+    
+    {
+    
+      field ( readonly )
+       CreatedAt,
+       CreatedBy,
+       LastChangedAt,
+       LocalLastChangedAt,
+       LocalLastChangedBy;
+    
+      field ( readonly )
+       TravelID;
+    
+      create;
+      update;
+      delete;
+    
+      action testaction;
+    
+      event TravelCancelled parameter ZRU_CanceledReason;
+    
+      draft action Edit;
+      draft action Activate optimized;
+      draft action Discard;
+      draft action Resume;
+      draft determine action Prepare;
+    
+      mapping for ZRU_ATRAV
+      {
+        TravelID = travel_id;
+        AgencyID = agency_id;
+        CustomerID = customer_id;
+        BeginDate = begin_date;
+        EndDate = end_date;
+        BookingFee = booking_fee;
+        TotalPrice = total_price;
+        CurrencyCode = currency_code;
+        Description = description;
+        OverallStatus = overall_status;
+        Attachment = attachment;
+        MimeType = mime_type;
+        FileName = file_name;
+        CreatedBy = created_by;
+        CreatedAt = created_at;
+        LocalLastChangedBy = local_last_changed_by;
+        LocalLastChangedAt = local_last_changed_at;
+        LastChangedAt = last_changed_at;
+      }
+    }
+\end{Verbatim}
+
+\section*{ RUTRAVEL\_CANCELLED\_V1 } 
+
+\begin{verbatim}
+    @EndUserText.label: 'rutravel_Cancelled_v1 generated'
+    define root abstract entity rutravel_Cancelled_v1
+    {
+      @Event.element.externalName: 'Description'
+      Description : abap.strg;
+      @Event.element.externalName: 'ReasonCode'
+      ReasonCode : abap.strg;
+      @Event.element.externalName: 'TravelID'
+      TravelID : abap.strg;
+      
+    }
+    @EndUserText.label: 'rutravel_Cancelled_v1 generated'
+    define root abstract entity rutravel_Cancelled_v1
+    {
+      @Event.element.externalName: 'Description'
+      Description : abap.strg;
+      @Event.element.externalName: 'ReasonCode'
+      ReasonCode : abap.strg;
+      @Event.element.externalName: 'TravelID'
+      TravelID : abap.strg;
+      
+    }
+        
+\end{verbatim}
+
+
+\section*{ ZRU\_CANCELEDREASON } 
+
+\begin{Verbatim}[breaklines=true]
+    @EndUserText.label: 'booking cancelation reason'
+    define abstract entity ZRU_CanceledReason 
+  {
+    ReasonCode : abap.char(2);  
+    Description : abap.char(64);
+  }
+  
+\end{Verbatim}
+
+
+\section*{ ZRU\_BP\_TRAVELTP } 
+
+\begin{Verbatim}[breaklines=true]
+    CLASS lsc_zru_r_traveltp DEFINITION INHERITING FROM cl_abap_behavior_saver.
+
+    PROTECTED SECTION.
+  
+      METHODS save_modified REDEFINITION.
+  
+  ENDCLASS.
+  
+  CLASS lsc_zru_r_traveltp IMPLEMENTATION.
+  
+    METHOD save_modified.
+      RAISE ENTITY EVENT zru_r_traveltp~TravelCancelled
+      FROM VALUE #( ( TravelID = 4 %param = VALUE #( ReasonCode = '02' Description = 'a test event' ) ) ).
+    ENDMETHOD.
+  
+  ENDCLASS.
+  
+  CLASS lhc_travel DEFINITION INHERITING FROM cl_abap_behavior_handler.
+    PRIVATE SECTION.
+      METHODS:
+        get_global_authorizations FOR GLOBAL AUTHORIZATION
+          IMPORTING
+          REQUEST requested_authorizations FOR Travel
+          RESULT result,
+        earlynumbering_create FOR NUMBERING
+          IMPORTING entities FOR CREATE Travel,
+        testaction FOR MODIFY
+              IMPORTING keys FOR ACTION Travel~testaction.
+  
+  ENDCLASS.
+  
+  CLASS lhc_travel IMPLEMENTATION.
+    METHOD get_global_authorizations.
+    ENDMETHOD.
+    METHOD earlynumbering_create.
+  
+  
+      DATA:
+        entity           TYPE STRUCTURE FOR CREATE zru_r_traveltp,
+        travel_id_max    TYPE /dmo/travel_id,
+        " change to abap_false if you get the ABAP Runtime error 'BEHAVIOR_ILLEGAL_STATEMENT'
+        use_number_range TYPE abap_bool VALUE abap_true.
+  
+      LOOP AT entities INTO entity WHERE TravelID IS NOT INITIAL.
+        APPEND CORRESPONDING #( entity ) TO mapped-travel.
+      ENDLOOP.
+  
+      DATA(entities_wo_travelid) = entities.
+  
+      DELETE entities_wo_travelid WHERE TravelID IS NOT INITIAL.
+  
+      IF use_number_range = abap_true.
+        "Get Numbers
+        TRY.
+            cl_numberrange_runtime=>number_get(
+            EXPORTING
+                   nr_range_nr       = '01'
+                   object            = '/DMO/TRV_M'
+                   quantity          = CONV #( lines( entities_wo_travelid ) )
+                 IMPORTING
+                   number            = DATA(number_range_key)
+                   returncode        = DATA(number_range_return_code)
+                   returned_quantity = DATA(number_range_returned_quantity)
+             ).
+          CATCH cx_number_ranges INTO DATA(lx_number_ranges).
+            LOOP AT entities_wo_travelid INTO entity.
+              APPEND VALUE #(  %cid      = entity-%cid
+                               %key      = entity-%key
+                               %is_draft = entity-%is_draft
+                               %msg      = lx_number_ranges
+                            ) TO reported-travel.
+              APPEND VALUE #(  %cid      = entity-%cid
+                               %key      = entity-%key
+                               %is_draft = entity-%is_draft
+                            ) TO failed-travel.
+            ENDLOOP.
+            EXIT.
+        ENDTRY.
+  
+        "determine the first free travel ID from the number range
+        travel_id_max = number_range_key - number_range_returned_quantity.
+      ELSE.
+        "determine the first free travel ID without number range
+        "Get max travel ID from active table
+        SELECT SINGLE FROM zru_atrav FIELDS MAX( travel_id ) AS travelID INTO @travel_id_max.
+        "Get max travel ID from draft table
+        SELECT SINGLE FROM zru_dtrav FIELDS MAX( travelid ) INTO @DATA(max_travelid_draft).
+        IF max_travelid_draft > travel_id_max.
+          travel_id_max = max_travelid_draft.
+        ENDIF.
+      ENDIF.
+  
+      "Set Travel ID for new instances w/o ID
+      LOOP AT entities_wo_travelid INTO entity.
+        travel_id_max += 1.
+        entity-TravelID = travel_id_max.
+  
+        APPEND VALUE #( %cid      = entity-%cid
+                        %key      = entity-%key
+                        %is_draft = entity-%is_draft
+                      ) TO mapped-travel.
+      ENDLOOP.
+  
+  
+    ENDMETHOD.
+  
+  
+    METHOD testaction.
+      "not working because a event can only be raised in the late save stage
+      RAISE ENTITY EVENT zru_r_traveltp~TravelCancelled
+      FROM VALUE #( ( TravelID = 4 %param = VALUE #( ReasonCode = '03' Description = 'another test event' ) ) ).
+    ENDMETHOD.
+  
+  ENDCLASS.
+  
+\end{Verbatim}
