@@ -6,7 +6,7 @@
 \contentsline {section}{Abbildungsverzeichnis}{VII}{section*.5}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Zielsetung}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Zielsetung}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Abgrenzung}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Vorgehensweise und Aufbau der Arbeit}{2}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{3}{section.2}%
@@ -18,14 +18,14 @@
 \contentsline {section}{\numberline {3}Anwendung in der Praxis}{16}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Implementierung aufseiten der BTP}{16}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Implementierung aufseiten des SAP S/4 Systems}{19}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{22}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bewertung des Prototyps}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Beurteilung von EDA und REST im Kontext des Anwendungsbeispiels}{23}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Chancen der Technologie im betriebswirtschaftlichen Kontext}{25}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Resümee}{28}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Zusammenfassung der wichtigsten Ergebnisse}{28}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Handlungsempfehlung}{28}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Kritische Reflexion der Arbeit und Ausblick}{29}{subsection.5.3}%
-\contentsline {section}{Quellenverzeichnis}{VIII}{section*.45}%
-\contentsline {section}{Anhang}{X}{section*.46}%
+\contentsline {section}{Quellenverzeichnis}{VIII}{section*.38}%
+\contentsline {section}{Anhang}{X}{section*.39}%
 \xpginauxfilefalse 
