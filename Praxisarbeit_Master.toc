@@ -6,12 +6,12 @@
 \contentsline {section}{Abbildungsverzeichnis}{VII}{section*.5}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation und Problemstellung}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Zielsetung}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Zielsetung}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Abgrenzung}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Vorgehensweise und Aufbau der Arbeit}{2}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Theoretischer Hintergrund}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Event-Driven Architecture}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}RESTful API}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}RESTful API}{9}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Technologie im Anwendungsbeispiel}{12}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Forschungsmethodik}{14}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Zusammenfassung des theoretischen Teils}{15}{subsection.2.5}%

@@ -2360,44 +2360,42 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">text/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">pressman2005software</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">EDA2010</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">sapse_was</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">EDA2006</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">schulte2003growing</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">sapse_was</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">EDA2006</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">schulte2003growing</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">CLOUD2021</bcf:citekey>
     <bcf:citekey order="7" intorder="1">EDA2010</bcf:citekey>
     <bcf:citekey order="8" intorder="1">CLOUD2021</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">CLOUD2021</bcf:citekey>
     <bcf:citekey order="10" intorder="1">CLOUD2021</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">CLOUD2021</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">CLOUD2021</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">cloudeventgit</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">cloudeventgit</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">EDA2010</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">wickramarachchi_2017_event</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">wickramarachchi_2017_event</bcf:citekey>
     <bcf:citekey order="15" intorder="1">wickramarachchi_2017_event</bcf:citekey>
     <bcf:citekey order="16" intorder="1">wickramarachchi_2017_event</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">wickramarachchi_2017_event</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">wickramarachchi_2017_event</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">reddy2011api</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">reddy2011api</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">richardson2007web</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">REST2000</bcf:citekey>
     <bcf:citekey order="20" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">REST2000</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">redhat_2020_was</bcf:citekey>
     <bcf:citekey order="22" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">redhat_2020_was</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">richardson2007web</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">cloudevent</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">cloudeventprimer</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">sapse_rap</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">sapse_rap</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">sapse_bes</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">sapse_bes</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">sapse_evm</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">solace2021</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">solace2021</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">aws2023</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">azure2023</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">gcp2021</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">cloudevent</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">cloudeventprimer</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">sapse_rap</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">sapse_rap</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">sapse_bes</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">sapse_bes</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">sapse_evm</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">heinrich2007wirtschaftsinformatik</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">solace2021</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">solace2021</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">aws2023</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">azure2023</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">gcp2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
