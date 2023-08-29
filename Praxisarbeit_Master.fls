@@ -509,10 +509,6 @@ INPUT C:\Users\I569398\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\images\SAP_R_grad_scrn.png
 INPUT .\text\template\declaration.tex
 INPUT .\text\template\declaration.tex
-INPUT .\Praxisarbeit_Master.tdo
-INPUT .\Praxisarbeit_Master.tdo
-OUTPUT Praxisarbeit_Master.tdo
-OUTPUT Praxisarbeit_Master.tdo
 INPUT .\Praxisarbeit_Master.toc
 INPUT .\Praxisarbeit_Master.toc
 OUTPUT Praxisarbeit_Master.toc

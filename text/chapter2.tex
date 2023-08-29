@@ -10,8 +10,8 @@ Ein Definitionsversuch für \ac{EDA} könnte also wie folgt lauten: Event-Driven
 \begin{figure}[H]
   \centering
 	\includegraphics[width=0.8\textwidth]{Graphik EDA.png}
+  \caption[Komponenten der Event-Driven Architecture]{Komponenten der \ac{EDA}\ \cite[][S. 249]{CLOUD2021}}
   \label{EDAbasics}
-   \caption[Komponenten der Event-Driven Architecture]{Komponenten der \ac{EDA}\ \cite[][S. 249]{CLOUD2021}}
 \end{figure}
 
 Die wichtigste Komponente eines durch \ac{EDA} modellierten Systems ist die zentrale Plattform zur Verarbeitung der Ereignisse in der Mitte der Architektur, wie dargestellt in Abbildung \ref{EDAbasics}. Sie stellt die Infrastruktur bereit, um Events anzunehmen und diese weiterzugeben. Um einen Mehrwert aus dem System zu ziehen, muss sie darüber hinaus in der Lage sein, einen Kontext um Events herzustellen, d.h. sie in Verbindung mit anderen Ereignissen zu setzten, Ereignisse auf höheren Abstraktionsebenen zu erstellen und Ereignisse gegebenenfalls zu konsolidieren. Man spricht bei diesem Prozess von 
@@ -40,7 +40,7 @@ Die Architektur der Event Platform hat, wie schon angerissen, besondere Relevanz
   \label{mediatortop}
 \end{figure}
 \footnotetext{\cite[][]{wickramarachchi_2017_event}}
-Die 'Mediator-Topology' sieht eine zentrale Event-Queue vor, in die Ereignisse eingespeist werden. Diese werden dann an die verschiedenen Subscriber verteilt, die anhand verschiedener Topics\footnote{In der Abbildung \ref{mediatortop} als Channels bezeichnet} gruppiert werden. Im Grunde werden in dieser Topologie also die ursprünglichen Ereignisse konsumiert und daraus folgend Ereignisse für jeden Channel, an den es gesendet werden soll, erzeugt und weitergegeben. Die Idee hinter diesem Prinzip ist es, auch Ereignisse, deren Verarbeitung mehrere Schritte benötigt orchestrieren zu können. \cite[Vgl. ][]{wickramarachchi_2017_event} \\
+Die 'Mediator-Topology', dargestellt in Abbildung \ref{mediatortop}, sieht eine zentrale Event-Queue vor, in die Ereignisse eingespeist werden. Diese werden dann an die verschiedenen Subscriber verteilt, die anhand verschiedener Topics\footnote{In der Abbildung \ref{mediatortop} als Channels bezeichnet} gruppiert werden. Im Grunde werden in dieser Topologie also die ursprünglichen Ereignisse konsumiert und daraus folgend Ereignisse für jeden Channel, an den es gesendet werden soll, erzeugt und weitergegeben. Die Idee hinter diesem Prinzip ist es, auch Ereignisse, deren Verarbeitung mehrere Schritte benötigt orchestrieren zu können. \cite[Vgl. ][]{wickramarachchi_2017_event} \\
 
 \begin{figure}[H]
   \centering
