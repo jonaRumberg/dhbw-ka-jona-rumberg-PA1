@@ -57,10 +57,13 @@
 % Hier sind die Kapitel.
 % Bei Bedarf kann man Kapitel entfernen oder hinzufügen
 \input{text/chapter1}
+\newpage
 \input{text/chapter2}
 \newpage
 \input{text/chapter3}
+\newpage
 \input{text/chapter4}
+\newpage
 \input{text/chapter5}
 
 
@@ -71,15 +74,16 @@
 \label{pagesForDeclaration}
 
 \clearpage
-\pagenumbering{Roman}
-\setcounter{page}{\value{pageNumber}}
-
-\input{text/template/references}
-\newpage
-
+% \pagenumbering{Roman}
+% \setcounter{page}{\value{pageNumber}}
 \input{text/appendix.tex}
 \newpage
 
 \input{text/appendix/sourcecode.tex}
+\newpage
+
+\input{text/template/references}
+\newpage
+
  
 \end{document}

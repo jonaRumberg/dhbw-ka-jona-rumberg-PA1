@@ -554,11 +554,11 @@ INPUT .\images\Mediator Topology.png
 INPUT .\images\Mediator Topology.png
 INPUT .\images\Mediator Topology.png
 INPUT .\images\Mediator Topology.png
+INPUT .\images\Broker Topology.png
+INPUT .\images\Broker Topology.png
+INPUT .\images\Broker Topology.png
+INPUT .\images\Broker Topology.png
 INPUT .\images\Cloud Events Example.png
-INPUT .\images\Broker Topology.png
-INPUT .\images\Broker Topology.png
-INPUT .\images\Broker Topology.png
-INPUT .\images\Broker Topology.png
 INPUT .\images\Mediator Topology.png
 INPUT .\images\Broker Topology.png
 INPUT .\text\chapter3.tex
@@ -572,11 +572,11 @@ INPUT .\images\messagechannelconfig.png
 INPUT .\images\messagechannelconfig.png
 INPUT .\images\messagechannelconfig.png
 INPUT .\images\event processing.jpg
+INPUT .\images\fiori.png
+INPUT .\images\fiori.png
+INPUT .\images\fiori.png
+INPUT .\images\fiori.png
 INPUT .\images\messagechannelconfig.png
-INPUT .\images\fiori.png
-INPUT .\images\fiori.png
-INPUT .\images\fiori.png
-INPUT .\images\fiori.png
 INPUT .\images\eventingstructure.jpg
 INPUT .\images\eventingstructure.jpg
 INPUT .\images\eventingstructure.jpg
@@ -610,16 +610,16 @@ INPUT .\images\solace study.png
 INPUT .\images\solace study.png
 INPUT .\images\solace study.png
 INPUT .\images\solace study.png
-INPUT .\text\chapter5.tex
-INPUT .\text\chapter5.tex
 INPUT .\images\solace study.png
-INPUT .\text\template\references.tex
-INPUT .\text\template\references.tex
+INPUT .\text\chapter5.tex
+INPUT .\text\chapter5.tex
 INPUT .\text\appendix.tex
 INPUT .\text\appendix.tex
 INPUT .\text\appendix\sourcecode.tex
 INPUT .\text\appendix\sourcecode.tex
 INPUT C:\Users\I569398\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmmono8-regular.luc
+INPUT .\text\template\references.tex
+INPUT .\text\template\references.tex
 INPUT .\Praxisarbeit_Master.aux
 INPUT .\Praxisarbeit_Master.aux
 INPUT .\Praxisarbeit_Master.out

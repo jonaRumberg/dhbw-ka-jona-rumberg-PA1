@@ -2,39 +2,41 @@
 
 % \subsection{Implementierung von EDA im RAP Umfeld}
 \label{implementierung}
-  Das Ziel dieses Abschnitts ist es, darzustellen, wie die bisher dargelegten Konzepte in der Entwicklung eines Prototyps angewandt wurden und somit ein 'Proof of Concept' erstellt wurde. Hierzu soll zuerst der Implementierungsprozess aufseiten der Event-Platform, und daran anschließend von Publisher und Subscriber dargestellt werden.\\
+  Das Ziel dieses Abschnitts ist es, darzustellen, wie die bisher dargelegten Konzepte in der Entwicklung eines Prototyps angewandt wurden und somit ein 'Proof of Concept' erstellt wurde. Hierzu soll zuerst der Implementierungsprozess aufseiten der Event-Platform, und daran anschließend von Publisher und Subscriber dargestellt werden.
 
   \subsection{Implementierung aufseiten der BTP}
-  
+
   Der Prototyp besteht aus einer Beispielanwendung , die auf Basis eines \ac{BO} eine Fiori UI Frontend Anwendung bereitstellt. Die Anwendung soll dabei die grundlegenden Funktionen eines \ac{BO} implementieren, also das Erstellen, Lesen, Ändern und Löschen von Datensätzen. Die Anwendung läuft auf einem SAP S/4 System und speichert Daten in der Datenbank des Systems. Zudem soll in jeder Speichersequenz des \ac{BO}s ein Business Event ausgelöst werden. An anderer Stelle im System reagiert ein Subscriber auf das Ereignis und persistiert es sowohl in einer Log-Datenbank und sendet eine Notification an einen Benutzer. \\
+
   Die inhaltliche Grundlage bildet nach SAP-Kovention eine Anwendung aus dem Bereich des Reisemanagements. Das \ac{BO} 'Travel' repräsentiert die Daten einer Reise. Es sollen hierbei Datensätze erstellt, verändert und gelöscht werden können. Relevant ist vor allem die Speicheraktion, denn hier soll die zusätzliche Programmlogik implementiert werden, die das Ereignis generiert. Um zu prüfen, wie mit Nutzdaten eines Ereignisses umgegangen werden muss, wird zusätzlich ein Code und eine Beschreibung in das Ereignis geschrieben.\\
-  
-  \begin{figure}[H]
+  \begin{figure}
     \centering
     \includegraphics[width=1.0\textwidth]{event processing.jpg}
-    \caption[BTP Event-Mesh]{Aufbau des BTP Event-Mesh \footnotemark}
+    \caption[Aufbau des BTP Event-Mesh]{Aufbau des BTP Event-Mesh \footnotemark}
     \label{EMprocessing}
   \end{figure}
   \footnotetext{Eigene Darstellung}
-  Wie bereits im theoretischen Teil der Arbeit kurz angerissen und in Abbildung \ref{EMprocessing} dargestellt soll ein SAP-spezifischer Cloud-Dienst verwendet werden, der als Event-Platform fungieren soll. Die Konfiguration dieses Dienstes beginnt mit der Einrichtung eines Unteraccounts innerhalb einer \ac{BTP} Instanz. Dieser Unteraccount wird dann mit dem Event-Mesh Dienst verknüpft, der über ein User Interface administriert werden. Hier kann dann ein sogenannter Message-Client erstellt werden. Es handelt sich dabei um die aktive Komponente des Event Mesh, die Nachrichten senden und empfangen kann. Auf Ebene des Message-Clients können zudem Regeln konfiguriert werden, die Nachrichten und Ereignisse nach Themen und Absender filtern. Innerhalb des Message-Clients können dann sogenannte Queues erstellt werden. Diese Queues sind die eigentlichen Kommunikationskanäle, über die Nachrichten ausgetauscht werden. Queues horchen auf Ereignisse mit bestimmten Themen und halten diese so lange bis sie von einem Subscriber konsumiert werden.\\ Im Folgenden soll im Kontext des Prototyps einmal durchgespielt werden, wie ein Ereignis, das durch die Änderung einer Reisebuchung ausgelöst wurde, von dem Event Mesh verarbeitet wird. Um ein Ereignis an ein Message-Channel zu senden, muss ein sogenanntes Service Binding generiert werden. Hierbei handelt es sich um ein Artefakt, 
-   \begin{wrapfigure}{l}{7cm}
-   \centering
-   \includegraphics[width=0.4\textwidth]{messagechannelconfig.png}
-   \caption[Message-Channel Konfiguration]{Regeln für die Konfiguration des Message-Channels \footnotemark}
-   \label{MesChannelConfig}
- \end{wrapfigure}
- \footnotetext{Eigene Darstellung} 
+  Wie bereits im theoretischen Teil der Arbeit kurz angerissen und in Abbildung \ref{EMprocessing} dargestellt soll ein SAP-spezifischer Cloud-Dienst verwendet werden, der als Event-Platform fungieren soll. Die Konfiguration dieses Dienstes beginnt mit der Einrichtung eines Unteraccounts innerhalb einer \ac{BTP} Instanz. Dieser Unteraccount wird dann mit dem Event-Mesh Dienst verknüpft, der über ein User Interface administriert werden. Hier kann dann ein sogenannter Message-Client erstellt werden. Es handelt sich dabei um die aktive Komponente des Event Mesh, die Nachrichten senden und empfangen kann. Auf Ebene des Message-Clients können zudem Regeln konfiguriert werden, die Nachrichten und Ereignisse nach Themen und Absender filtern. Innerhalb des Message-Clients können dann sogenannte Queues erstellt werden. Diese Queues sind die eigentlichen Kommunikationskanäle, über die Nachrichten ausgetauscht werden. Queues horchen auf Ereignisse mit bestimmten Themen und halten diese so lange bis sie von einem Subscriber konsumiert werden.\\ 
+  
+  Im Folgenden soll im Kontext des Prototyps einmal durchgespielt werden, wie ein Ereignis, das durch die Änderung einer Reisebuchung ausgelöst wurde, von dem Event Mesh verarbeitet wird. Um ein Ereignis an ein Message-Channel zu senden, muss ein sogenanntes Service Binding generiert werden. Hierbei handelt es sich um ein Artefakt, 
   das in einem strukturierten Dateiformat sämtliche Verbindungs- und Authentifizierungsdaten enthält. Der Publisher kann die Informationen aus diesem Dokument, die pro Message-Channel eindeutig sind, nutzen, um eine Verbindung zum Event Mesh herzustellen. Der Publisher kann dann eine Nachricht an das Event Mesh senden. Diese Nachricht enthält neben dem eigentlichen Ereignis auch Metadaten, die das Ereignis beschreiben.  
   Hierzu gehören unter anderem das Thema des Ereignisses, der Absender und der Zeitpunkt der Erstellung. Im Kontext des Beispiels könnte das Thema des Ereignisses 'travel.booking.changed' sein, wobei das Thema aber frei wählbar ist. Um das Ereignis zu verarbeiten, müsste nun im Message Channel eine Queue konfiguriert sein, die auf dieses Thema horcht. Damit würde das Ereignis in der Queue landen und könnte von einem Subscriber konsumiert werden. 
+  \begin{wrapfigure}{l}{7cm}
+  \centering
+  \includegraphics[width=0.4\textwidth]{messagechannelconfig.png}
+  \caption[Regeln für die Konfiguration des Message-Channels]{Regeln für die Konfiguration des Message-Channels \footnotemark}
+  \label{MesChannelConfig}
+\end{wrapfigure}
+\footnotetext{Eigene Darstellung} 
   Aufseiten des Message-Channels müsste zudem eine Regel formuliert sein, die zulässt, dass Ereignisse mit dem Thema 'travel.booking.changed' angenommen werden. Die Formulierung dieser Regeln wird bei der Erstellung des Channels im Rahmen einer Konfigurationsdatei, die service descriptor genannt wird, vorgenommen. Der service descriptor ist in Abbildung \ref{MesChannelConfig} dargestellt und erlaubt auch die Verwendung von Wildcards. Eine Regel, die im Beispiel eine Annahme des Ereignisses erlauben würde, könnte 'travel/booking/*' oder 'travel/*' sein. Im Rahmen des Prototyps wurde hierbei über die beispielhaft beschriebenen Schritte hinaus keine weitere funktionale Konfigurationsarbeit vorgenommen. Der finale Prototyp enthält eine Queue, die Ereignisse mit dem Thema 'travel.booking.changed' annimmt und eine weitere Queue, die im Grunde genau dasselbe tut, aber ausschließlich zu Testzwecken im Implementierungsprozess verwendet wurde und an die keine Subscriber angebunden wurden.\\
 
-  Damit ist das grundlegende Gerüst der Event-Plattform fertiggestellt. An das Event Mesh können Publisher und Subscriber auf verschiedene Weisen angebunden werden. Vorgeschrieben ist nur, dass die Ereignisse, die diese erzeugen und konsumieren dem in Abschnitt \ref{cloudev} beschriebenen Cloud Event Spezifikationen folgen und somit alle relevanten Metadaten enthalten. Im Folgenden soll zuerst die Implementierung des Publishers beschrieben werden.\\
+  Damit ist das grundlegende Gerüst der Event-Plattform fertiggestellt. An das Event Mesh können Publisher und Subscriber auf verschiedene Weisen angebunden werden. Vorgeschrieben ist nur, dass die Ereignisse, die diese erzeugen und konsumieren dem in Abschnitt \ref{cloudev} beschriebenen Cloud Event Spezifikationen folgen und somit alle relevanten Metadaten enthalten. Im Folgenden soll zuerst die Implementierung des Publishers beschrieben werden.
 
   \subsection{Implementierung aufseiten des SAP S/4 Systems}
   \begin{figure}
     \centering
     \includegraphics[width=1.0\textwidth]{fiori.png}
-    \caption[Screenshot des Prototyps]{Fiori Standard User Interface des Prototyps \footnotemark}
+    \caption[Fiori Standard User Interface des Prototyps]{Fiori Standard User Interface des Prototyps \footnotemark}
     \label{fiori}
   \end{figure}
   \footnotetext{Eigene Darstellung}
@@ -43,14 +45,13 @@
   \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{eventingstructure.jpg}
-    \caption[Eventing in SAP S/4]{Eventing in SAP S/4 unter Verwendung des BTP Event Mesh \footnotemark}
+    \caption[Eventing in SAP S/4 unter Verwendung des BTP Event Mesh]{Eventing in SAP S/4 unter Verwendung des BTP Event Mesh \footnotemark}
     \label{BEstructure}
   \end{figure}
   \footnotetext{Eigene Darstellung}
   Die Artefakte, die benötigt werden, um Ereignisse im S/4 System zu senden und zu empfangen sind in Abbildung \ref{BEstructure} dargestellt. Gekapselt werden sie in einem Paket, das Enterprise Event Enablement genannt wird. Für die Kommunikation mit dem Event Mesh in der Cloud muss als grundlegendes Artefakt ein Channel angelegt werden. Dieser kann automatisch generiert werden, indem der Service Key angegeben wird. Wie im vorherigen Abschnitt beschrieben, enthält dieser Service Key alle notwendigen Angaben über Endpunkte, Authentifizierung und Protokolle um sich mit dem Cloud-Service zu verbinden. Somit kann mit dem Channel diese Verbindung abgedeckt werden. Innerhalb des Channels können dann sogenannte Bindings angelegt werden. Ein Binding enthält die Konfiguration der Themen, die durch den Channel an das Event-Mesh weitergeben werden sollen.\\ Unterschieden wird in Outbound- und Inbound-Binding. Tritt im System ein Ereignis auf, das mit einem Thema im Outbound Binding übereinstimmt, kümmert sich der Channel darum, dieses an das Event Mesh weiterzugeben. Auf der anderen Seite ist das Inbound-Binding an sich auch nur eine Spezifikation von Themen, die der Channel vom Event Mesh empfangen kann. Die eigentliche Abholung der Ereignisse wird mithilfe einer Subscription konfiguriert, die die Basis für das Erstellen eines hintergründig laufenden Jobs bildet, welcher dann die Ereignisse aus der Queue des Message-Clients abholt und an die richtigen Stellen im S/4 System weiterleitet. Im Prototyp wurden also Inbound und Outbound Binding mit dem Thema 'travel.booking.changed' angelegt und zudem eine Subscription mit dem entsprechenden Thema konfiguriert.\\
 
-
-Schlussendlich muss nur noch die Logik implementiert werden, die die Ereignisse auslöst und empfängt. Soll ein Ereignis durch ein \ac{BO} erzeugt werden, muss zuerst einmal in der Behavior Definition dieses \acp{BO} definiert werden, dass es ein Ereignis senden kann.
+Schlussendlich muss nur noch die Logik implementiert werden, die die Ereignisse auslöst und empfängt. Soll ein Ereignis durch ein \ac{BO} erzeugt werden, muss zuerst einmal in der Behavior Definition dieses \acp{BO} definiert werden, dass es ein Ereignis senden kann.\\
 
 \begin{lstlisting}
   // dieses BO kann ein Ereignis mit dem Namen TravelCancelled senden, welches Nutzdaten vom Typ ZRU_CanceledReason enthaelt
@@ -58,6 +59,7 @@ Schlussendlich muss nur noch die Logik implementiert werden, die die Ereignisse 
 \end{lstlisting}
 
 Wenn das getan ist, kann ein Artefakt, das Event-Binding, erstellt werden, welches im \ac{BO} liegt und dazu dient, Ereignisse, die im \ac{BO} erzeugt werden, an den Event-Channel weiterzugeben.\\
+
 Im letzten Schritt muss nur noch im Programmcode der Behavior-Implementation das Ereignis auch tatsächlich ausgelöst werden. Hierzu wird das Schlüsselwort RAISE ENTITY EVENT verwendet, das als Parameter den Namen des Ereignisses und optional die Nutzdaten des Ereignisses mit dem Zusatz FROM VALUE erwartet.\\
 
 \begin{lstlisting}[language=ABAP]
@@ -68,8 +70,7 @@ Im letzten Schritt muss nur noch im Programmcode der Behavior-Implementation das
 
 Wird dieser Programmcode ausgeführt, wird das Ereignis ausgelöst und mithilfe der bis jetzt besprochenen Artefakte an das Event Mesh weitergegeben.\\
 
-Es bleibt zu beleuchten, wie ein Ereignis in S/4 konsumiert wird. Wenn Inbound-Binding sowie Subscription definiert sind, kann mithilfe der \ac{ADT} ein Event Consumption Model angelegt werden. Wie bereits in Abschnitt \ref{ecm} dargestellt handelt es sich hierbei um eine Sammlung von Artefakten, deren relevanteste Aufgabe es ist, eine \ac{ABAP}-Klasse bereitzustellen, deren Methoden immer dann aufgerufen werden, wenn ein Ereignis konsumiert wurde. Zur Generation dieses Event Consumption Models wird eine strukturierte Beschreibung des Ereinisses benötigt, welches verarbeitet werden soll. Im SAP Kontext erfolt diese Beschreibung nach dem offenen Standart von AsyncAPI.\footnote{Auf diesen Standard soll an dieser Stelle nicht näher eingegangen werden, da das Artefakt, das ein Ereignis beschreibt in den allermeisten Fällen automatisch generiert werden kann.} Mithilfe dieser Ereignisbeschreibung kann dann ein Event Consumption Model generiert werden. Teil dieses Models ist eine Klasse, in der schlussendlich eine Methode implementiert werden kann, die immer dann aufgerufen wird, wenn ein Ereignis konsumiert wurde.\\ Der Quellcode aller Artefakte des Prototyps ist im Anhang zu finden.\\
-
+Es bleibt zu beleuchten, wie ein Ereignis in S/4 konsumiert wird. Wenn Inbound-Binding sowie Subscription definiert sind, kann mithilfe der \ac{ADT} ein Event Consumption Model angelegt werden. Wie bereits in Abschnitt \ref{ecm} dargestellt handelt es sich hierbei um eine Sammlung von Artefakten, deren relevanteste Aufgabe es ist, eine \ac{ABAP}-Klasse bereitzustellen, deren Methoden immer dann aufgerufen werden, wenn ein Ereignis konsumiert wurde. Zur Generation dieses Event Consumption Models wird eine strukturierte Beschreibung des Ereinisses benötigt, welches verarbeitet werden soll. Im SAP Kontext erfolt diese Beschreibung nach dem offenen Standart von AsyncAPI.\footnote{Auf diesen Standard soll an dieser Stelle nicht näher eingegangen werden, da das Artefakt, das ein Ereignis beschreibt in den allermeisten Fällen automatisch generiert werden kann.} Mithilfe dieser Ereignisbeschreibung kann dann ein Event Consumption Model generiert werden. Teil dieses Models ist eine Klasse, in der schlussendlich eine Methode implementiert werden kann, die immer dann aufgerufen wird, wenn ein Ereignis konsumiert wurde. Der Quellcode aller Artefakte des Prototyps ist im Anhang zu finden.\\
 
 Mit diesem Prototyp wurde vor allem gezeigt, wie es möglich ist, im gegeben Softwareumfeld eine \ac{EDA} zu implementieren. Zudem wurde eine Übersicht über die Schritte gewonnen, die nötig sind um Das zu erreichen. Bezogen auf das einleitend erwähnte Problem wurde gezeigt, dass es möglich ist asynchron, aus der Speichersequenz eines \ac{BO} heraus, die Speichersequenz eines anderen Komponenten aufzurufen. Explizit wurde hier implementiert, dass, wenn ein BO vom Typ travel neu angelegt wird ein Ereignis ausgelöst wurde. Das Coding hierfür stellt die einzige zusätzliche Logik im BO da, was dazu führt, dass nach seiner Ausführung der Speicherprozess eingeleitet wird. Die Verarbeitung des Ereignisses erfolgt im weiteren Verlauf asynchron.
 Davon abstrahierend kann bezüglich der Forschungsfrage eingeordnet werden, dass das betrachtete System durchaus ein komplexes System darstellt, was im folgenden Kapitel eine Bewertung in diesem Kontext und eine weitere Bearbeitung der Forschungsfrage zulässt.\\

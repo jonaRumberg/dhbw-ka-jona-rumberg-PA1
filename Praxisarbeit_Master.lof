@@ -1,20 +1,19 @@
 \xpginauxfiletrue 
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {1}{\ignorespaces Komponenten der Event-Driven Architecture}}{5}{figure.1}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Komponenten der Event-Driven Architecture}}{6}{figure.1}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {2}{\ignorespaces Beispiel für ein Ereignismodell}}{7}{figure.2}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Beispiel für ein Ereignismodell nach dem offen Standard 'CloudEvents'}}{7}{figure.2}%
 \setforeignlanguage {german}
 \contentsline {figure}{\numberline {3}{\ignorespaces Mediator-Topologie}}{8}{figure.3}%
 \setforeignlanguage {german}
 \contentsline {figure}{\numberline {4}{\ignorespaces Broker-Topologie}}{9}{figure.4}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {5}{\ignorespaces BTP Event-Mesh}}{18}{figure.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Aufbau des BTP Event-Mesh}}{18}{figure.5}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {6}{\ignorespaces Message-Channel Konfiguration}}{19}{figure.6}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Regeln für die Konfiguration des Message-Channels}}{19}{figure.6}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {7}{\ignorespaces Screenshot des Prototyps}}{20}{figure.7}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fiori Standard User Interface des Prototyps}}{20}{figure.7}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {8}{\ignorespaces Eventing in SAP S/4}}{21}{figure.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Eventing in SAP S/4 unter Verwendung des BTP Event Mesh}}{21}{figure.8}%
 \setforeignlanguage {german}
-\contentsline {figure}{\numberline {9}{\ignorespaces Kosten Nutzen EDA}}{28}{figure.9}%
-\xpginauxfilefalse 
+\contentsline {figure}{\numberline {9}{\ignorespaces Kosten und Nutzen von EDA nach einer Studie von solace}}{28}{figure.9}%
